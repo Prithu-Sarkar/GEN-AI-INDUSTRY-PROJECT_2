@@ -1,0 +1,14 @@
+FAISS index built (local, no external DB)
+
+[1] {'product_name': 'realme Buds Q Bluetooth Headset'}
+First of all, size of the product is very small and handy, it can easily fit in your pocket. Battery backup is good as of now.Call quality is average, not expecting more...Sound quality is good for ba
+
+[2] {'product_name': 'BoAt Airdopes 131 Bluetooth Headset'}
+Got the device in 2 days.Fast delivery by flipkart.Sound quality is the best at this price range.Even better than realme buds air and other like mivi.Best package at 1299.Must buy
+
+[3] {'product_name': 'OnePlus Bullets Wireless Z Bluetooth Headset'}
+Looking nice product...I got just 1day delivery..11th I ordered...12th I received...in this price range this product is no1..I got blue...i gift to dear one.. must buy.. don't go other products on thi
+
+[4] {'product_name': 'OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset'}
+Awesome looking and stylish all my friends are asking me for testing this product and some of them are buying. that's batter and I like that thing. Also the phone has low latency mode that's also help
+

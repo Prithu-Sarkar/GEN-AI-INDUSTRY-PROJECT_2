@@ -1,0 +1,12 @@
+langchain==0.3.27
+langchain-community==0.3.27
+langchain-groq
+langchain-huggingface
+langgraph==0.6.5
+faiss-cpu
+pydantic
+pypdf
+python-dotenv==1.2.1
+pandas==2.3.3
+sentence-transformers
+streamlit
