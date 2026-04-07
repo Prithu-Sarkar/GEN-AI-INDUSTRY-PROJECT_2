@@ -1,0 +1,27 @@
+{
+  "pipeline_run": "2026-04-07T15:01:34.495493",
+  "queries": [
+    {
+      "query": "Kasol 3-day Budget trip",
+      "output": "outputs/stage10a_query1_kasol.txt"
+    },
+    {
+      "query": "Goa 5-day Mid-range trip",
+      "output": "outputs/stage10b_query2_goa.txt"
+    },
+    {
+      "query": "Rajasthan 7-day Luxury trip",
+      "output": "outputs/stage10c_query3_rajasthan.txt"
+    }
+  ],
+  "tools_tested": [
+    {
+      "tool": "Tavily",
+      "output": "outputs/stage6a_tavily_test.txt"
+    },
+    {
+      "tool": "Serper",
+      "output": "outputs/stage6b_serper_test.txt"
+    }
+  ]
+}
