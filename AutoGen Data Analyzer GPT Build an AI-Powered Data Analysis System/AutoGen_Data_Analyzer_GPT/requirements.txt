@@ -1,0 +1,11 @@
+autogen-agentchat
+autogen-core
+autogen-ext[openai]
+autogen-ext[local]
+groq
+openai
+tiktoken
+python-dotenv
+pandas
+matplotlib
+seaborn
