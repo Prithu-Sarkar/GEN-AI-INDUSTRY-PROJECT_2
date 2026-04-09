@@ -1,0 +1,194 @@
+{
+  "name": "Travel Agent",
+  "nodes": [
+    {
+      "parameters": {
+        "inputSource": "jsonExample",
+        "jsonExample": "{\n  \"input\":\"data\"\n}"
+      },
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "56c2d029-32be-4621-8afb-f4503a1ee788",
+      "name": "When Executed by Another Workflow"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=user_input : {{ $json.input }}\n\nToday : {{ $today }}",
+        "options": {
+          "systemMessage": "=You are the **Travel Agent** using SerpAPI to find flights and hotels.\n\n**Capabilities:**\n- Flights: departure_id, arrival_id, outbound_date (+ return_date optional)\n- Hotels: q, check_in_date, check_out_date, adults, rating, class\n\n**Rules:**\n1. Convert all dates to ISO 8601 +05:30.  \n2. Defaults: one-way, 1 adult, economy, 4★+ hotels, rating ≥8.  \n3. Return 3–5 options (name, price, timing).  \n4. If no results, suggest nearby dates or airports.  \n5. Output plain Telegram-safe text ≤4096 chars.\n\n**Example:**\nSearch Results: Flights  \n1) Air India — DEL → BOM  \n   Departure: 2025-06-10T09:00:00+05:30  \n   Price: ₹5,200  \n2) IndiGo — DEL → BOM  \n   Departure: 2025-06-10T14:00:00+05:30  \n   Price: ₹5,000  "
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3,
+      "position": [
+        208,
+        0
+      ],
+      "id": "10c39267-e036-49e0-b6e7-e51aa810ec23",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "sessionIdType": "customKey",
+        "sessionKey": "12345"
+      },
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.3,
+      "position": [
+        272,
+        304
+      ],
+      "id": "6b89a8a9-1561-48d6-b4d2-3c73e5229054",
+      "name": "Simple Memory"
+    },
+    {
+      "parameters": {
+        "operation": "google_flights",
+        "departure_id": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Departure_airport_code___location_kgmid__departure_id_', ``, 'string') }}",
+        "arrival_id": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Arrival_airport_code___location_kgmid__arrival_id_', ``, 'string') }}",
+        "outbound_date": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Outbound_Date__outbound_date_', ``, 'string') }}",
+        "return_date": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Return_Date__return_date_', ``, 'string') }}",
+        "type": "2",
+        "additionalFields": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-serpapi.serpApiTool",
+      "typeVersion": 1,
+      "position": [
+        432,
+        288
+      ],
+      "id": "80e4dfde-67cb-4e1d-afaa-e56d466f604b",
+      "name": "Flights Search",
+      "credentials": {
+        "serpApi": {
+          "id": "5dJq3gKRUdndEQtW",
+          "name": "SerpAPI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "google_hotels",
+        "q": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Search_Query__q_', ``, 'string') }}",
+        "check_in_date": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Check-in_Date__check_in_date_', ``, 'string') }}",
+        "check_out_date": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Check-out_Date__check_out_date_', ``, 'string') }}",
+        "additionalFields": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-serpapi.serpApiTool",
+      "typeVersion": 1,
+      "position": [
+        576,
+        304
+      ],
+      "id": "a1f0fd54-f1ef-40e0-93a7-d825b3aa6a9e",
+      "name": "Hotels Search",
+      "credentials": {
+        "serpApi": {
+          "id": "5dJq3gKRUdndEQtW",
+          "name": "SerpAPI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "gpt-4o",
+          "mode": "list",
+          "cachedResultName": "gpt-4o"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        192,
+        224
+      ],
+      "id": "4a843192-af5b-455c-afe4-54db3d68af9a",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "9O4FzIo3vGUwKyu1",
+          "name": "OpenAi account 2"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When Executed by Another Workflow": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Simple Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Flights Search": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Hotels Search": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "228f0d87-0f03-4a10-9adf-98bed0b2fe38",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "8ab6e61273a5598f9b8aca5593755cac8ba4c44d2fab2e9c87a2f6be9ea97aef"
+  },
+  "id": "13dujX6y3a49f7N7",
+  "tags": []
+}

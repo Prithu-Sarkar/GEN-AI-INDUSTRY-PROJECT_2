@@ -1,0 +1,751 @@
+{
+  "name": "Main Workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "resource": "audio",
+        "modelId": {
+          "__rl": true,
+          "value": "models/gemini-2.0-flash-exp",
+          "mode": "list",
+          "cachedResultName": "models/gemini-2.0-flash-exp"
+        },
+        "inputType": "binary",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.googleGemini",
+      "typeVersion": 1,
+      "position": [
+        672,
+        -96
+      ],
+      "id": "aef1aa3e-bb9a-43e1-b40c-a7f1cca90d3b",
+      "name": "Transcribe a recording",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "5Eue7MzvVyLZTWw7",
+          "name": "Google Gemini(PaLM) Api account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "updates": [
+          "message"
+        ],
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegramTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        96
+      ],
+      "id": "4d7f326d-cce3-48ce-a1f6-724310b866a5",
+      "name": "Telegram Trigger",
+      "webhookId": "562d8708-7068-4d9c-b023-92d2843b52f5",
+      "credentials": {
+        "telegramApi": {
+          "id": "Vdm77nBGs4YtktUY",
+          "name": "Telegram account 3"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.message.voice.file_id }}",
+                    "rightValue": "",
+                    "operator": {
+                      "type": "string",
+                      "operation": "exists",
+                      "singleValue": true
+                    },
+                    "id": "ce346e84-a635-4bea-aef1-b657783fae78"
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Voice"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "3ef45e02-666a-419f-963e-7d62ab74cd1d",
+                    "leftValue": "={{ $json.message.photo[0].file_id }}",
+                    "rightValue": "",
+                    "operator": {
+                      "type": "string",
+                      "operation": "exists",
+                      "singleValue": true
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "photo"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "dbf633ef-819c-4da5-a965-a6b8b0dfe612",
+                    "leftValue": "={{ $json.message.text }}",
+                    "rightValue": "",
+                    "operator": {
+                      "type": "string",
+                      "operation": "exists",
+                      "singleValue": true
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "text"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.3,
+      "position": [
+        224,
+        80
+      ],
+      "id": "aa4d583c-7066-4382-8803-8cfac170f3b6",
+      "name": "Switch1"
+    },
+    {
+      "parameters": {
+        "resource": "image",
+        "operation": "analyze",
+        "modelId": {
+          "__rl": true,
+          "value": "models/gemini-2.0-flash",
+          "mode": "list",
+          "cachedResultName": "models/gemini-2.0-flash"
+        },
+        "inputType": "binary",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.googleGemini",
+      "typeVersion": 1,
+      "position": [
+        672,
+        288
+      ],
+      "id": "36072d71-0a54-495c-be10-5f941fec9ead",
+      "name": "Analyze an image",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "5Eue7MzvVyLZTWw7",
+          "name": "Google Gemini(PaLM) Api account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "81227ae1-f432-4b88-abe4-47f3d635ef06",
+              "name": "final_text",
+              "value": "={{ $json.message.text }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        448,
+        96
+      ],
+      "id": "00e280e0-76df-4eb4-b8e1-b5bed1adff14",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "content": "## Multimodal Input through Telegram\n\n**Double click** to edit me. [Guide](https://docs.n8n.io/workflows/sticky-notes/)",
+        "height": 544,
+        "width": 1552
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -64,
+        -112
+      ],
+      "typeVersion": 1,
+      "id": "0e550a06-fa13-4ade-84c1-529a4b990e5a",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "fileId": "={{ $json.message.photo[0].file_id }}",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        448,
+        288
+      ],
+      "id": "c8c62a94-32e7-4f30-9b4c-f66d1892dad5",
+      "name": "Photo_file",
+      "webhookId": "08adb606-f33c-41c7-8053-4f2e277d5758",
+      "credentials": {
+        "telegramApi": {
+          "id": "Vdm77nBGs4YtktUY",
+          "name": "Telegram account 3"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "fileId": "={{ $json.message.voice.file_id }}",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        448,
+        -96
+      ],
+      "id": "7aa198b8-9c36-41d5-bc09-79396eceabb9",
+      "name": "Audio_file",
+      "webhookId": "37bece10-7fc4-41fb-9efe-7f7d621a84c6",
+      "credentials": {
+        "telegramApi": {
+          "id": "Vdm77nBGs4YtktUY",
+          "name": "Telegram account 3"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.final_text }}\n\nTime : {{ $now }}\n\nDate : {{ $today }}",
+        "options": {
+          "systemMessage": "You are the **Main Routing Agent** in an n8n swarm.  \nYour role: analyze user intent, route tasks to the correct sub-agent(s) in proper sequence, and return Telegram-safe plain text.\n\n**Sub-Agents:**\n- Email Agent → Gmail tasks (send, read, reply, delete)\n- Calendar Agent → Google Calendar tasks (create, update, delete, availability)\n- Travel Agent → SerpAPI travel searches (flights & hotels)\n- Research Agent → Web & knowledge lookups via Tavily + Wikipedia\n\n**Core Rules:**\n1. Never execute tools yourself — only route to sub-agents.  \n2. Detect the user’s intent and decide which agent(s) to trigger and in what order.  \n3. Convert all dates/times to **ISO 8601** with timezone **Asia/Kolkata (+05:30)** → `YYYY-MM-DDThh:mm:ss+05:30`.  \n4. Ask for clarification only when essential (missing date, recipient, destination).  \n5. Infer defaults when possible (e.g., “tomorrow” → next day 09:00+05:30).  \n6. Always return **plain text**, no Markdown or HTML, escaped and Telegram-safe.  \n7. Merge sub-agent outputs into one concise summary, ending with “— End of results —”.\n\n---\n\n### 🧩 MULTI-AGENT & COMPOUND EXAMPLES\n\n**1️⃣ Single-Agent Tasks**\n- “Send an email to HR about my leave.” → Email Agent  \n- “Schedule a meeting tomorrow 3 PM.” → Calendar Agent  \n- “Find flights from Delhi to Mumbai on June 10.” → Travel Agent  \n- “Explain what RAG in AI is.” → Research Agent  \n\n**2️⃣ Two-Agent Tasks**\n- “Schedule meeting tomorrow and email attendees.” → Calendar → Email  \n- “Find flights to Dubai and email top 3 options.” → Travel → Email  \n- “Find hotels in Goa and add check-in reminder.” → Travel → Calendar  \n- “Check unread mails and schedule follow-up calls.” → Email → Calendar  \n- “Research OpenAI updates and email summary.” → Research → Email  \n\n**3️⃣ Three-Agent Tasks**\n- “Book flight to Tokyo on July 10, add it to my calendar, and email me the itinerary.” → Travel → Calendar → Email  \n- “Find hotels and flights for my Singapore trip, schedule event, and email confirmation.” → Travel → Calendar → Email  \n- “Research AI trends, summarize, and schedule a review meeting.” → Research → Calendar  \n\n**Behavior Summary:**\nAlways detect → sequence → route → merge results → return Telegram-safe summary.  \nNever output raw JSON or tool names.  \nBe concise, professional, and context-aware.\n"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        1808,
+        -64
+      ],
+      "id": "e292e04d-2cd7-4d44-9e9a-57c8d3d5569f",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "description": "This tool is used for email specific query",
+        "workflowId": {
+          "__rl": true,
+          "value": "fwjIlZvGRIc32mKn",
+          "mode": "list",
+          "cachedResultUrl": "/workflow/fwjIlZvGRIc32mKn",
+          "cachedResultName": "Swarm Agents — Email Workflow"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "query": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('query', ``, 'string') }}"
+          },
+          "matchingColumns": [
+            "query"
+          ],
+          "schema": [
+            {
+              "id": "query",
+              "displayName": "query",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string"
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.toolWorkflow",
+      "typeVersion": 2.2,
+      "position": [
+        1712,
+        320
+      ],
+      "id": "574b99ad-4d69-4dcd-9557-56cbe0691f15",
+      "name": "Email Workflow"
+    },
+    {
+      "parameters": {
+        "description": "This tool will be used for calendar events . Or the events which require to be stored on calendar",
+        "workflowId": {
+          "__rl": true,
+          "value": "r8xFL1D18463ETcY",
+          "mode": "list",
+          "cachedResultUrl": "/workflow/r8xFL1D18463ETcY",
+          "cachedResultName": "Swarm Agents — Calendar Workflow"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "input": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('input', ``, 'string') }}"
+          },
+          "matchingColumns": [
+            "input"
+          ],
+          "schema": [
+            {
+              "id": "input",
+              "displayName": "input",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.toolWorkflow",
+      "typeVersion": 2.2,
+      "position": [
+        2192,
+        304
+      ],
+      "id": "9ca9f800-db41-441b-95f8-2332436e2c26",
+      "name": "Calendar Workflow"
+    },
+    {
+      "parameters": {
+        "sessionIdType": "customKey",
+        "sessionKey": "={{ $('Telegram Trigger').item.json.message.from.id }}",
+        "contextWindowLength": 20
+      },
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.3,
+      "position": [
+        1728,
+        176
+      ],
+      "id": "458fc593-1ffd-450d-8a80-582fca76bfeb",
+      "name": "Simple Memory"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        1584,
+        176
+      ],
+      "id": "049e1052-34f1-4061-b628-12267f8892f9",
+      "name": "Google Gemini Chat Model",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "5Eue7MzvVyLZTWw7",
+          "name": "Google Gemini(PaLM) Api account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
+        "text": "={{ $json.output }}",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        2368,
+        -16
+      ],
+      "id": "38ddf11e-1bd2-44f6-b776-0c2cddf556e9",
+      "name": "Send a text message",
+      "webhookId": "02c23a2d-03a9-4954-aed1-7f82ba1e8f4c",
+      "credentials": {
+        "telegramApi": {
+          "id": "Vdm77nBGs4YtktUY",
+          "name": "Telegram account 3"
+        }
+      },
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "c6cb675d-6f2c-4075-ad7b-14e59ac42e70",
+              "name": "final_text",
+              "value": "={{ $json.content.parts[0].text }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        960,
+        -96
+      ],
+      "id": "efca715b-8f6d-4b5d-b8cf-94fc2304242e",
+      "name": "Edit Fields1"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "ea6d688f-b388-4951-9945-8cfb0f447c7d",
+              "name": "final_text",
+              "value": "={{ $json.content.parts[0].text }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        896,
+        288
+      ],
+      "id": "67871424-2f7e-41a1-92a5-6cbaf47c761b",
+      "name": "Edit Fields2"
+    },
+    {
+      "parameters": {
+        "description": "This tool is used for travel related Queries",
+        "workflowId": {
+          "__rl": true,
+          "value": "13dujX6y3a49f7N7",
+          "mode": "list",
+          "cachedResultUrl": "/workflow/13dujX6y3a49f7N7",
+          "cachedResultName": "Swarm Agents — Travel Agent"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "input": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('input', ``, 'string') }}"
+          },
+          "matchingColumns": [
+            "input"
+          ],
+          "schema": [
+            {
+              "id": "input",
+              "displayName": "input",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.toolWorkflow",
+      "typeVersion": 2.2,
+      "position": [
+        2000,
+        320
+      ],
+      "id": "b8136f43-1711-4dc7-9268-c7e459d0db27",
+      "name": "Call 'Travel Agent'"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "9ivY1pGxLzK4Lqgt",
+          "mode": "list",
+          "cachedResultUrl": "/workflow/9ivY1pGxLzK4Lqgt",
+          "cachedResultName": "Swarm Agents — Research Agent"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Input": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Input', ``, 'string') }}"
+          },
+          "matchingColumns": [
+            "Input"
+          ],
+          "schema": [
+            {
+              "id": "Input",
+              "displayName": "Input",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.toolWorkflow",
+      "typeVersion": 2.2,
+      "position": [
+        1856,
+        304
+      ],
+      "id": "8e353085-aceb-44e5-a1cb-bc530b3783ec",
+      "name": "Call 'Research Agent'"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Telegram Trigger": {
+      "main": [
+        [
+          {
+            "node": "Switch1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Switch1": {
+      "main": [
+        [
+          {
+            "node": "Audio_file",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Photo_file",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Transcribe a recording": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Analyze an image": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Photo_file": {
+      "main": [
+        [
+          {
+            "node": "Analyze an image",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Audio_file": {
+      "main": [
+        [
+          {
+            "node": "Transcribe a recording",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Email Workflow": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Calendar Workflow": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Simple Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "Send a text message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields1": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields2": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Call 'Travel Agent'": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Call 'Research Agent'": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "312f66f8-882c-4a5c-a542-9cfb51fc1d82",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "8ab6e61273a5598f9b8aca5593755cac8ba4c44d2fab2e9c87a2f6be9ea97aef"
+  },
+  "id": "QTSOOHPw1Dn9oJey",
+  "tags": []
+}
