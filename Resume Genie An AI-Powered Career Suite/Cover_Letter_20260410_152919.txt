@@ -1,0 +1,26 @@
+[Your Name]
+[Your Address]
+[City, State, Zip]
+[Email Address]
+[Phone Number]
+[Date]
+
+[Recipient’s Name]
+[Recipient’s Title]
+[Company Name]
+[Company Address]
+[City, State, Zip]
+
+Dear [Recipient’s Name],
+
+I am thrilled to apply for the Machine Learning Engineer position at [Company Name], where I can leverage my technical skills and passion for AI to build and ship ML-powered product features. With a strong foundation in public relations and event management, I am confident that my unique blend of skills will enable me to make a significant impact in this role.
+
+As a creative professional with hands-on experience in content strategy, brand management, and social media amplification, I have developed a keen understanding of audience engagement and digital marketing. My experience as a Content Writer at 3 SM Marketing, where I managed a content management system and created engaging content for the fashion and entertainment industry, has honed my skills in storytelling and strategic communication. Additionally, my stint as a Client Servicing Intern at Movieshuvy has taught me the importance of client relationship management and account planning.
+
+While my background may not be traditional for a Machine Learning Engineer, I am excited about the opportunity to apply my analytical skills and collaborative team work to thrive in a fast-paced, competitive setting. My experience in project management, market research, and corporate communications has equipped me with a strong foundation in data analysis and problem-solving. I am eager to learn and grow in this field, and I am confident that my unique perspective and skills will enable me to make a valuable contribution to your team.
+
+Thank you for considering my application. I would be thrilled to discuss this opportunity further and explore how my skills and experience align with your team's goals. Please feel free to contact me at [Your Email Address] or [Your Phone Number].
+
+Sincerely,
+
+[Your Name]

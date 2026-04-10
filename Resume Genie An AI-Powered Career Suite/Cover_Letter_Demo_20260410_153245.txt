@@ -1,0 +1,23 @@
+[Your Name]
+[Address]
+[City, State ZIP Code]
+[Date]
+
+[Hiring Manager's Name]
+[Company Name]
+[Address]
+[City, State ZIP Code]
+
+Dear [Hiring Manager's Name],
+
+I am excited to apply for the Senior AI/ML Engineer position at [Company Name], where I can leverage my technical expertise and passion for innovation to contribute to the development of the next generation AI platform. With a strong foundation in Python, experience in LLMs, and a proven track record of driving audience engagement through innovative storytelling, I am confident that I would be a strong fit for this role.
+
+As a creative professional with a Master's in Public Relations and Event Management, I have developed a unique blend of technical and creative skills that enable me to drive business growth through strategic communication, content management, and audience engagement. My experience as a Content Writer at 3 SM Marketing (June 2022 - July 2022) has given me a solid understanding of content management systems and the importance of creating engaging content for diverse audiences. Additionally, my role as a Client Servicing Intern at [Client Name] (Aug 2023 - Oct 2023) has equipped me with skills in social media marketing, organic and inorganic marketing, event co-ordination, and PR association.
+
+While my background may not be traditional for an AI/ML Engineer, I am eager to apply my analytical skills and experience in project management, market research, and corporate communications to drive innovation in the field of AI. I am confident that my strong foundation in Python, combined with my experience in content management systems and audience engagement, makes me an ideal candidate for this role. I am particularly drawn to [Company Name]'s commitment to innovation and its vision for the next generation AI platform.
+
+I would welcome the opportunity to discuss my application and how I can contribute to the success of [Company Name]. Thank you for considering my application. I look forward to the opportunity to meet with you to discuss this further.
+
+Sincerely,
+
+[Your Name]
