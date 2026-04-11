@@ -1,0 +1,7 @@
+{
+    "stage": "data_ingestion",
+    "class_counts": {
+        "Normal": 240,
+        "Tumor": 225
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "project": "Kidney Tumor Identification System",
+    "created_at": "2026-04-11T15:32:46.696911Z",
+    "model": "VGG16 Transfer Learning",
+    "task": "Binary Classification - Tumor vs Normal",
+    "evaluation_scores": {
+        "loss": 1.4738866090774536,
+        "accuracy": 0.6115108132362366
+    },
+    "hyperparameters": {
+        "AUGMENTATION": true,
+        "IMAGE_SIZE": [
+            224,
+            224,
+            3
+        ],
+        "BATCH_SIZE": 16,
+        "INCLUDE_TOP": false,
+        "EPOCHS": 5,
+        "CLASSES": 2,
+        "WEIGHTS": "imagenet",
+        "LEARNING_RATE": 0.01
+    },
+    "framework": "TensorFlow 2.15 / Keras",
+    "mlops_tools": [
+        "MLflow",
+        "DagsHub",
+        "MongoDB",
+        "Groq LLM"
+    ],
+    "source_code_dir": "src/cnnClassifier/"
+}

@@ -1,0 +1,4 @@
+{
+    "stage": "training",
+    "trained_model": "artifacts/training/model.h5"
+}
