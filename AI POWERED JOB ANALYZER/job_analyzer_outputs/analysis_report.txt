@@ -1,0 +1,37 @@
+AI POWERED JOB ANALYZER — ANALYSIS REPORT
+==================================================
+Run timestamp     : 2026-04-16T03:54:15.075028
+Model used        : llama-3.1-8b-instant
+Overall Score     : 47 / 100
+Cutoff Score      : 75
+Outcome           : NOT SELECTED
+
+JD Skills Extracted:
+Python, Kubernetes, Docker, PySpark, NumPy, Pandas, SQL, Scikit-learn, TensorFlow, AWS, PyTorch, GCP, MLflow, Azure, Prometheus, Grafana, LLMs, LangChain, GenAI
+
+Per-Skill Scores:
+  Python                              9/10
+  Kubernetes                          6/10
+  Docker                              8/10
+  PySpark                             8/10
+  NumPy                               8/10
+  Pandas                              8/10
+  SQL                                 6/10
+  Scikit-learn                        8/10
+  TensorFlow                          8/10
+  AWS                                 0/10
+  PyTorch                             8/10
+  GCP                                 2/10
+  MLflow                              0/10
+  Azure                               2/10
+  Prometheus                          0/10
+  Grafana                             2/10
+  LLMs                                0/10
+  LangChain                           2/10
+  GenAI                               6/10
+
+Strengths (score >= 7):
+Python, Docker, PySpark, NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch
+
+Areas for Improvement (score <= 5):
+AWS, GCP, MLflow, Azure, Prometheus, Grafana, LLMs, LangChain

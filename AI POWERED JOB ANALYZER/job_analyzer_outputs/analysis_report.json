@@ -1,0 +1,45 @@
+{
+  "overall_score": 47,
+  "selected": false,
+  "skill_scores": {
+    "Python": 9,
+    "Kubernetes": 6,
+    "Docker": 8,
+    "PySpark": 8,
+    "NumPy": 8,
+    "Pandas": 8,
+    "SQL": 6,
+    "Scikit-learn": 8,
+    "TensorFlow": 8,
+    "AWS": 0,
+    "PyTorch": 8,
+    "GCP": 2,
+    "MLflow": 0,
+    "Azure": 2,
+    "Prometheus": 0,
+    "Grafana": 2,
+    "LLMs": 0,
+    "LangChain": 2,
+    "GenAI": 6
+  },
+  "strengths": [
+    "Python",
+    "Docker",
+    "PySpark",
+    "NumPy",
+    "Pandas",
+    "Scikit-learn",
+    "TensorFlow",
+    "PyTorch"
+  ],
+  "missing_skills": [
+    "AWS",
+    "GCP",
+    "MLflow",
+    "Azure",
+    "Prometheus",
+    "Grafana",
+    "LLMs",
+    "LangChain"
+  ]
+}
