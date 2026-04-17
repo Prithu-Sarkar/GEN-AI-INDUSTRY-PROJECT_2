@@ -1,0 +1,98 @@
+================================================================================
+  💎 DIAMONDS PRICE TIER CLASSIFICATION — PRODUCTION-GRADE ML REPORT
+================================================================================
+
+Dataset       : Diamonds.csv  |  53,940 rows × 10 raw features
+Engineered    : 26 features total (16 derived)
+Task          : 4-class Price Tier Classification (Quartile-based)
+Price bounds  : Q1=$950 | Q2=$2401 | Q3=$5324
+Split         : 60% Train / 20% Val / 20% Test  (stratified)
+
+────────────────────────────────────────────────────────────────────────────────
+CLASS DISTRIBUTION
+────────────────────────────────────────────────────────────────────────────────
+  Budget    : 13,490  (25.0%)
+  Mid-Low   : 13,495  (25.0%)
+  Mid-High  : 13,470  (25.0%)
+  Premium   : 13,485  (25.0%)
+
+────────────────────────────────────────────────────────────────────────────────
+MODEL PERFORMANCE LEADERBOARD
+────────────────────────────────────────────────────────────────────────────────
+Model                      Accuracy     F1-Wt   ROC-AUC   LogLoss
+───────────────────────────────────────────────────────
+Hist Grad Boost              0.9435    0.9436    0.9954    0.1439
+Random Forest                0.9427    0.9427    0.9951    0.1634
+MLP Neural Net               0.9359    0.9359    0.9945    0.1614
+Extra Trees                  0.9410    0.9410    0.9940    0.2026
+Logistic Regression          0.9153    0.9154    0.9907    0.2182
+
+  *** Best Model: Hist Grad Boost (selected by ROC-AUC) ***
+  Test Accuracy : 0.9435  (94.35%)
+  Weighted F1   : 0.9436
+  ROC-AUC (OvR) : 0.9954
+  Log-Loss      : 0.1439
+
+────────────────────────────────────────────────────────────────────────────────
+FULL CLASSIFICATION REPORT — Hist Grad Boost
+────────────────────────────────────────────────────────────────────────────────
+              precision    recall  f1-score   support
+
+      Budget       0.97      0.96      0.96      2698
+     Mid-Low       0.92      0.93      0.93      2699
+    Mid-High       0.92      0.92      0.92      2694
+     Premium       0.96      0.96      0.96      2697
+
+    accuracy                           0.94     10788
+   macro avg       0.94      0.94      0.94     10788
+weighted avg       0.94      0.94      0.94     10788
+
+────────────────────────────────────────────────────────────────────────────────
+CONFUSION MATRIX
+────────────────────────────────────────────────────────────────────────────────
+              Pred-Budget    Pred-Mid-Low   Pred-Mid-High  Pred-Premium 
+True-Budget              2594           104             0             0
+True-Mid-Low               87          2518            93             1
+True-Mid-High               0           103          2489           102
+True-Premium                0             0           119          2578
+
+────────────────────────────────────────────────────────────────────────────────
+TOP-12 FEATURE IMPORTANCES (Random Forest MDI)
+────────────────────────────────────────────────────────────────────────────────
+  carat_x_4c            : 0.1378  ██████████████████████████████
+  log_volume            : 0.0975  █████████████████████
+  volume                : 0.0917  ████████████████████
+  girdle_area           : 0.0825  ██████████████████
+  x                     : 0.0750  ████████████████
+  y                     : 0.0749  ████████████████
+  log_carat             : 0.0689  ███████████████
+  carat_sq              : 0.0665  ██████████████
+  carat                 : 0.0497  ██████████
+  color_clarity         : 0.0414  █████████
+  z                     : 0.0336  ███████
+  4c_product            : 0.0263  █████
+
+────────────────────────────────────────────────────────────────────────────────
+EXPLAINABILITY METHODS
+────────────────────────────────────────────────────────────────────────────────
+  KERNEL SHAP (implemented from scratch):
+    • 20 test instances explained (5 per class)
+    • 64 random coalitions per instance, Ridge regression surrogate
+    • Outputs: global bar, per-class heatmap, beeswarm, waterfall, dependence
+
+  LIME (implemented from scratch):
+    • 4 instances explained (one per class, most confident prediction)
+    • 300 Gaussian-perturbed samples, exponential kernel, Ridge surrogate
+    • Outputs: per-class coefficient charts for true & predicted class
+
+────────────────────────────────────────────────────────────────────────────────
+STATISTICAL VALIDATION
+────────────────────────────────────────────────────────────────────────────────
+  Kruskal-Wallis price~cut:     H=978.6   p≈0  (significant)
+  Kruskal-Wallis price~color:   H=1335.6  p≈0  (significant)
+  Kruskal-Wallis price~clarity: H=2718.2  p≈0  (significant)
+  Spearman ρ(carat, price)  = 0.9629  (near-perfect rank correlation)
+
+================================================================================
+END OF REPORT
+================================================================================
