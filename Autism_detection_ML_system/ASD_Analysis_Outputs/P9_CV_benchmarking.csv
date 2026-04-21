@@ -1,0 +1,21 @@
+Group,Model,AUC_mean,AUC_std
+Child,Logistic Regression,1.0,0.0
+Child,Random Forest,1.0,0.0
+Child,Gradient Boosting,1.0,0.0
+Child,KNN,0.9683232692409556,0.019702178897234014
+Child,SVM,0.9972119815668202,0.00403482472623919
+Adolescent,Logistic Regression,0.9961538461538462,0.007692307692307709
+Adolescent,Random Forest,1.0,0.0
+Adolescent,Gradient Boosting,1.0,0.0
+Adolescent,KNN,0.9544871794871794,0.04355437856491815
+Adolescent,SVM,0.982905982905983,0.013962657480944057
+Adult,Logistic Regression,1.0,0.0
+Adult,Random Forest,1.0,1.1102230246251565e-16
+Adult,Gradient Boosting,1.0,0.0
+Adult,KNN,0.9910239058680551,0.005558892722110493
+Adult,SVM,0.9987018188346752,0.0015168614513978967
+Combined,Logistic Regression,1.0,0.0
+Combined,Random Forest,1.0,0.0
+Combined,Gradient Boosting,1.0,0.0
+Combined,KNN,0.9908915285688178,0.00301198799111627
+Combined,SVM,0.9996760963135294,0.00036177790472879365

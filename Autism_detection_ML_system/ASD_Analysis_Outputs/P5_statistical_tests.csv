@@ -1,0 +1,46 @@
+Group,Feature,Test,Statistic,p_value,Significant
+Adolescent,A5: Imagination,Point-Biserial r,0.5339185716629478,5.32909139352116e-09,True
+Adolescent,A4: Communication,Point-Biserial r,0.5066774878770814,4.066278411557784e-08,True
+Adolescent,A3: Attention to Detail,Point-Biserial r,0.4883491734349753,1.4487515412132647e-07,True
+Adolescent,A10: Other Minds,Point-Biserial r,0.4883491734349752,1.4487515412132647e-07,True
+Adolescent,A6: Social Situations,Point-Biserial r,0.4454498886560105,2.154806929856943e-06,True
+Adolescent,A8: Numbers/Patterns,Point-Biserial r,0.4137704219245506,1.265571086315552e-05,True
+Adolescent,A9: Faces/Emotions,Point-Biserial r,0.40117828948799383,2.437763835307328e-05,True
+Adolescent,A7: Routine/Change,Point-Biserial r,0.326409793456355,0.0007205795025233638,True
+Adolescent,ethnicity,Cramér's V (Chi²),0.31915796722720824,0.1895697849492287,False
+Adolescent,A2: Attention Switching,Point-Biserial r,0.20038125267704926,0.041396898180975694,True
+Adolescent,A1: Social Interaction,Point-Biserial r,0.1757313320992902,0.07436381864307506,False
+Adolescent,gender,Cramér's V (Chi²),0.1098130395618829,0.26276589807523354,False
+Adolescent,used_app_before,Cramér's V (Chi²),0.09444501377615283,0.33547027769326665,False
+Adolescent,jundice,Cramér's V (Chi²),0.010487366975672546,0.914828188050335,False
+Adolescent,austim,Cramér's V (Chi²),0.0,1.0,False
+Adult,A9: Faces/Emotions,Point-Biserial r,0.635575801301008,6.26731076783014e-81,True
+Adult,A6: Social Situations,Point-Biserial r,0.5920909511093151,8.008459911421482e-68,True
+Adult,A5: Imagination,Point-Biserial r,0.5370043376017067,7.719465269061075e-54,True
+Adult,A4: Communication,Point-Biserial r,0.46994518792403456,5.803828057937111e-40,True
+Adult,A3: Attention to Detail,Point-Biserial r,0.4410737189168542,7.110232876994213e-35,True
+Adult,A10: Other Minds,Point-Biserial r,0.3859170845042141,2.023590680625911e-26,True
+Adult,ethnicity,Cramér's V (Chi²),0.37911405423079403,1.6518773016705536e-14,True
+Adult,A7: Routine/Change,Point-Biserial r,0.3514286248381852,6.824472377437201e-22,True
+Adult,A2: Attention Switching,Point-Biserial r,0.3113817216994088,2.711123235287155e-17,True
+Adult,A1: Social Interaction,Point-Biserial r,0.2976276065855924,7.238664531833708e-16,True
+Adult,A8: Numbers/Patterns,Point-Biserial r,0.23716061128409588,1.8593158182731317e-10,True
+Adult,austim,Cramér's V (Chi²),0.17263776407447728,4.63649391560665e-06,True
+Adult,jundice,Cramér's V (Chi²),0.09676146402926676,0.010247268414204275,True
+Adult,gender,Cramér's V (Chi²),0.07716974418879981,0.040604633334703925,True
+Adult,used_app_before,Cramér's V (Chi²),0.03165660392812774,0.4009394387224988,False
+Child,A4: Communication,Point-Biserial r,0.5685023896203247,2.1369402694410456e-26,True
+Child,A9: Faces/Emotions,Point-Biserial r,0.48616300533366325,9.95904802271684e-19,True
+Child,A10: Other Minds,Point-Biserial r,0.43994189738340067,2.983989965091565e-15,True
+Child,A8: Numbers/Patterns,Point-Biserial r,0.43838902885367503,3.8255714660865306e-15,True
+Child,A6: Social Situations,Point-Biserial r,0.4172714079404748,9.91889891170831e-14,True
+Child,A3: Attention to Detail,Point-Biserial r,0.3955453395578813,2.2444146586845797e-12,True
+Child,A1: Social Interaction,Point-Biserial r,0.39353360603498955,2.9622476695594813e-12,True
+Child,A5: Imagination,Point-Biserial r,0.37985890207982864,1.859870880179678e-11,True
+Child,A7: Routine/Change,Point-Biserial r,0.2739490433926969,2.0102714344395186e-06,True
+Child,ethnicity,Cramér's V (Chi²),0.257050548178063,0.05800958949519186,False
+Child,A2: Attention Switching,Point-Biserial r,0.22904498447089594,7.822693798402982e-05,True
+Child,austim,Cramér's V (Chi²),0.03963055482383908,0.4982744889440034,False
+Child,gender,Cramér's V (Chi²),0.031212399053201497,0.5937859868520012,False
+Child,used_app_before,Cramér's V (Chi²),0.029214658462527417,0.6176241932342436,False
+Child,jundice,Cramér's V (Chi²),0.01736612752829216,0.7666554589836205,False

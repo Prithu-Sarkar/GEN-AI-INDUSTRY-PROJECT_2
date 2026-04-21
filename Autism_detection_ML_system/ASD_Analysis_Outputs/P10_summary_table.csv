@@ -1,0 +1,4 @@
+Group,N,ASD_positive_n,ASD_rate_%,Mean_age,Mean_AQ10_ASD+,Mean_AQ10_ASD-,Top_RF_feature,Top_RF_importance,Strongest_association,Assoc_statistic
+Child,292,141,48.29,6.35,8.21,4.4,result,0.5469,A4: Communication,0.5685
+Adolescent,104,63,60.58,14.13,8.19,4.46,result,0.505,A5: Imagination,0.5339
+Adult,704,189,26.85,29.7,8.26,3.63,result,0.4987,A9: Faces/Emotions,0.6356
