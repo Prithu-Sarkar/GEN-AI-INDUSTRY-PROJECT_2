@@ -1,0 +1,31 @@
+{
+  "models": [
+    {
+      "name": "Baseline CNN",
+      "accuracy": 0.516,
+      "loss": 2.3401
+    },
+    {
+      "name": "MobileNetV2",
+      "accuracy": 0.8351,
+      "loss": 0.4123
+    },
+    {
+      "name": "MobileNetV2-HPO",
+      "accuracy": 0.8777,
+      "loss": 0.363
+    },
+    {
+      "name": "Xception",
+      "accuracy": 0.8989,
+      "loss": 0.3455
+    }
+  ],
+  "best_model": "Xception",
+  "mlflow_run_ids": {
+    "baseline_cnn": "886c98b14737441eaf83b9ec60579496",
+    "mobilenetv2": "0da6e5de8596469ebe940afa177a878c",
+    "mobilenetv2_hpo": "4557ad8db579440b8ad1932f6dbd9221",
+    "xception": "a44cab6f41ae479baa6006622ddb96ed"
+  }
+}

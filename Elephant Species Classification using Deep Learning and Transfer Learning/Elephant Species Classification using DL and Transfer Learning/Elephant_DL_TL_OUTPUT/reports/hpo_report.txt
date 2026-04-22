@@ -1,0 +1,11 @@
+MobileNetV2-HPO
+Loss: 0.3630  Accuracy: 0.8777
+
+              precision    recall  f1-score   support
+
+     African       0.88      0.89      0.88        97
+       Asian       0.88      0.87      0.87        91
+
+    accuracy                           0.88       188
+   macro avg       0.88      0.88      0.88       188
+weighted avg       0.88      0.88      0.88       188

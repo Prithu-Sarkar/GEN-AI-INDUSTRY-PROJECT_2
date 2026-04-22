@@ -1,0 +1,11 @@
+Xception
+Loss: 0.3455  Accuracy: 0.8989
+
+              precision    recall  f1-score   support
+
+     African       0.88      0.94      0.91        97
+       Asian       0.93      0.86      0.89        91
+
+    accuracy                           0.90       188
+   macro avg       0.90      0.90      0.90       188
+weighted avg       0.90      0.90      0.90       188
