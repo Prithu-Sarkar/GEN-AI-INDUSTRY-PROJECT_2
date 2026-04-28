@@ -1,0 +1,4 @@
+feature,mean_no_churn,mean_churn,t_statistic,p_value,cohens_d,significant
+tenure,37.65,17.98,34.9719,0.0,-0.8973,Yes
+MonthlyCharges,61.31,74.44,-18.3409,0.0,0.468,Yes
+TotalCharges,2555.34,1531.8,18.8008,0.0,-0.4825,Yes

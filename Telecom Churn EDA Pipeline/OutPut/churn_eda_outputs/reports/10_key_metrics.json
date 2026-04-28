@@ -1,0 +1,30 @@
+{
+  "churn_by_contract": {
+    "Month-to-month": 42.71,
+    "One year": 11.28,
+    "Two year": 2.85
+  },
+  "churn_by_payment": {
+    "Bank transfer (automatic)": 16.73,
+    "Credit card (automatic)": 15.25,
+    "Electronic check": 45.29,
+    "Mailed check": 19.2
+  },
+  "churn_by_tenure_group": {
+    "1-12 mo": 47.68,
+    "13-24 mo": 28.71,
+    "25-36 mo": 21.63,
+    "37-48 mo": 19.03,
+    "49-60 mo": 14.42,
+    "61-72 mo": 6.61,
+    "73-84 mo": NaN
+  },
+  "churn_senior_vs_non": {
+    "Non-Senior": 23.65,
+    "Senior": 41.68
+  },
+  "median_ltv": {
+    "No": 1683.6,
+    "Yes": 703.55
+  }
+}

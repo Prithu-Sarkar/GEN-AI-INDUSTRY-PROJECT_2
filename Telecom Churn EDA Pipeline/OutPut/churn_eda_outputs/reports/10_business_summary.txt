@@ -1,0 +1,41 @@
+
+╔══════════════════════════════════════════════════════════════════╗
+║         TELECOM CHURN ANALYSIS — KEY BUSINESS INSIGHTS          ║
+╚══════════════════════════════════════════════════════════════════╝
+
+DATASET
+  Total customers analysed : 7,032
+  Overall churn rate        : 26.58%
+  Class imbalance (No:Yes)  : 2.8:1
+
+TOP CHURN DRIVERS
+  1. CONTRACT TYPE
+     Month-to-month: ~42.71%  vs
+     Two year:        ~2.85%
+
+  2. PAYMENT METHOD
+     Electronic check leads churn (~45.29%)
+
+  3. TENURE
+     Customers in their first 12 months have the highest churn.
+
+  4. SENIOR CITIZENS
+     Senior: ~41.68%  vs
+     Non-Senior: ~23.65%
+
+  5. SERVICES
+     Customers without Online Security or Tech Support churn significantly more.
+
+  6. CHARGES
+     High monthly charges + short tenure → highest churn risk.
+     Median LTV (churned): $703.55 vs
+     Median LTV (retained): $1683.6
+
+LOW-IMPACT FEATURES
+  Gender and Phone Service show minimal churn differentiation.
+
+NEXT STEPS
+  → Address class imbalance (SMOTE / class_weight) before modelling
+  → Build retention models (Logistic Regression, XGBoost, etc.)
+  → Target month-to-month customers with long-term contract incentives
+  → Investigate electronic check payment UX for friction reduction

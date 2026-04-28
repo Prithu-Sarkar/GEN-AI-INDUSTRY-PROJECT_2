@@ -1,0 +1,19 @@
+,count,unique,top,freq
+customerID,7043,7043,3186-AJIEK,1
+gender,7043,2,Male,3555
+Partner,7043,2,No,3641
+Dependents,7043,2,No,4933
+PhoneService,7043,2,Yes,6361
+MultipleLines,7043,3,No,3390
+InternetService,7043,3,Fiber optic,3096
+OnlineSecurity,7043,3,No,3498
+OnlineBackup,7043,3,No,3088
+DeviceProtection,7043,3,No,3095
+TechSupport,7043,3,No,3473
+StreamingTV,7043,3,No,2810
+StreamingMovies,7043,3,No,2785
+Contract,7043,3,Month-to-month,3875
+PaperlessBilling,7043,2,Yes,4171
+PaymentMethod,7043,4,Electronic check,2365
+TotalCharges,7043,6531, ,11
+Churn,7043,2,No,5174

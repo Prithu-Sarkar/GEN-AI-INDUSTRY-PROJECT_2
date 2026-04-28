@@ -1,0 +1,37 @@
+feature,pearson_r
+tenure,-0.3540493589532504
+InternetService_Fiber optic,0.307462590698132
+Contract_Two year,-0.30155233962395517
+PaymentMethod_Electronic check,0.30145463790856536
+StreamingMovies_No internet service,-0.22757762044656196
+StreamingTV_No internet service,-0.22757762044656196
+OnlineBackup_No internet service,-0.22757762044656196
+DeviceProtection_No internet service,-0.22757762044656196
+InternetService_No,-0.22757762044656196
+OnlineSecurity_No internet service,-0.22757762044656196
+TechSupport_No internet service,-0.22757762044656196
+tenure_group_61-72 mo,-0.22607810969154277
+TotalCharges,-0.199484083567564
+MonthlyCharges,0.192858218470079
+PaperlessBilling_Yes,0.19145432108004623
+Contract_One year,-0.1782250232899516
+OnlineSecurity_Yes,-0.17126992353349918
+TechSupport_Yes,-0.16471590834410682
+Dependents_Yes,-0.1631284393882202
+SeniorCitizen,0.15054105341568125
+Partner_Yes,-0.14998192562005902
+PaymentMethod_Credit card (automatic),-0.1346868372340779
+tenure_group_49-60 mo,-0.10079964105626602
+PaymentMethod_Mailed check,-0.09077284582583436
+OnlineBackup_Yes,-0.08230696876508191
+DeviceProtection_Yes,-0.06619251684228522
+StreamingTV_Yes,0.06325398027519347
+StreamingMovies_Yes,0.060859936681458796
+tenure_group_37-48 mo,-0.059578882592378805
+tenure_group_25-36 mo,-0.04099747819958552
+MultipleLines_Yes,0.040032739872521345
+tenure_group_13-24 mo,0.019928968647702196
+MultipleLines_No phone service,-0.011691398865421651
+PhoneService_Yes,0.011691398865421577
+gender_Male,-0.008544643224946346
+tenure_group_73-84 mo,
