@@ -1,0 +1,33 @@
+{
+  "run_timestamp": "2026-04-29T15:20:03.035675",
+  "ticker_analyzed": "NVDA",
+  "llm_model": "groq/llama-3.3-70b-versatile",
+  "max_tokens_per_call": 1024,
+  "groq_api_key_prefix": "gsk_Dn3R...",
+  "firecrawl_key_prefix": "fc-dc241...",
+  "storage_backend": "local_file",
+  "database_backend": "local_sqlite",
+  "report_url": "file:///content/Multi-Agent Quantitative Analysis System/AAFA/crewai-agent-azure/outputs/investment_report_NVDA.md",
+  "database_record_id": 1,
+  "rate_limit_fixes": [
+    "max_tokens=1024 per LLM call",
+    "5s inter-step delay (step_callback)",
+    "FundamentalAnalysisTool: 8 fields only (was 11)",
+    "SentimentSearchTool: limit=2 articles, truncated to 1600 chars",
+    "Task prompts shortened ~40%",
+    "Backstories trimmed ~50%",
+    "memory=False on agents and crew",
+    "Exponential backoff retry: 45s / 90s / 180s"
+  ],
+  "phases_completed": [
+    "Phase 0: API Key Loading",
+    "Phase 1: Dependency Installation",
+    "Phase 2: Folder Structure",
+    "Phase 3: Shared Modules",
+    "Phase 4: Agent Tools",
+    "Phase 5: Agents / Tasks / Crew",
+    "Phase 6: API Layer",
+    "Phase 7: Pipeline Execution",
+    "Phase 8: Output Saving"
+  ]
+}

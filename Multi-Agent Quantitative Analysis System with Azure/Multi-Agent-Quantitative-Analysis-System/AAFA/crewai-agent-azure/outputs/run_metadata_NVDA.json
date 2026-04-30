@@ -1,0 +1,24 @@
+{
+  "run_timestamp": "2026-04-28T15:50:32.472111",
+  "ticker_analyzed": "NVDA",
+  "llm_model": "groq/llama-3.3-70b-versatile",
+  "groq_api_key_prefix": "gsk_Dn3R...",
+  "firecrawl_api_key_prefix": "fc-dc241...",
+  "storage_backend": "local_file",
+  "database_backend": "local_sqlite",
+  "report_url": "Error: Report file not available for storage.",
+  "database_record_id": "N/A (Report content not available)",
+  "report_file": "investment_report_NVDA.md",
+  "phases_completed": [
+    "Phase 0: API Key Loading",
+    "Phase 1: Dependency Installation",
+    "Phase 2: Folder Structure Creation",
+    "Phase 3: Shared Modules (Config, Database, Storage)",
+    "Phase 4: Agent Tools (Financial, Scraper)",
+    "Phase 5: Agents, Tasks, Crew Definitions",
+    "Phase 6: API Layer (FastAPI)",
+    "Phase 7: Pipeline Execution",
+    "Phase 8: Output Saving"
+  ],
+  "project_structure": "Multi-Agent Quantitative Analysis System/AAFA/crewai-agent-azure/"
+}

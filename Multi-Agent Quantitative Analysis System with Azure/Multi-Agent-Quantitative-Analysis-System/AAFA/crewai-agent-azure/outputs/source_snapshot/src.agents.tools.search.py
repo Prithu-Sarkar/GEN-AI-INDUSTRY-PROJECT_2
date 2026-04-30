@@ -1,0 +1,1 @@
+# Placeholder: advanced search tool (not implemented in this phase)
