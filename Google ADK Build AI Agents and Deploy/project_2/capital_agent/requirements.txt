@@ -1,0 +1,5 @@
+# Agent dependencies for Cloud Run container
+google-adk
+python-dotenv
+groq
+litellm
