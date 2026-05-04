@@ -1,0 +1,50 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python -c "import sys; sys.path.insert(0, '.'); from src.data_ingestion
+      import DataIngestion; DataIngestion().run()"
+    deps:
+    - path: config/data_ingestion_config.py
+      hash: md5
+      md5: 095b996e09d86d5e753af432de4dc0d5
+      size: 634
+    - path: src/data_ingestion.py
+      hash: md5
+      md5: f57e204062b1004982e867b0c0a9b8eb
+      size: 3726
+    outs:
+    - path: artifacts/raw/
+      hash: md5
+      md5: adfb9f01a07ced01f71d76b2cc3d7908.dir
+      size: 2442191
+      nfiles: 666
+  model_training:
+    cmd: python -c "import sys; sys.path.insert(0, '.'); from src.model_training
+      import ModelTraining; ModelTraining().run()"
+    deps:
+    - path: artifacts/raw/
+      hash: md5
+      md5: adfb9f01a07ced01f71d76b2cc3d7908.dir
+      size: 2442191
+      nfiles: 666
+    - path: config/data_ingestion_config.py
+      hash: md5
+      md5: 095b996e09d86d5e753af432de4dc0d5
+      size: 634
+    - path: src/data_processing.py
+      hash: md5
+      md5: af629ed2f442f19cd8b5709ad4d0f5ef
+      size: 3236
+    - path: src/model_architecture.py
+      hash: md5
+      md5: be04d64d167e89f97f32442960ec88d0
+      size: 1767
+    - path: src/model_training.py
+      hash: md5
+      md5: 908b5ce266249c51fa58d7481f7c21d1
+      size: 8548
+    outs:
+    - path: artifacts/models/fasterrcnn.pth
+      hash: md5
+      md5: d2ffbc35eeac2fd988618ab8b1181916
+      size: 165728568

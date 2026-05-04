@@ -1,0 +1,5 @@
+2026-05-03 15:41:00,748 - INFO - src.data_ingestion - DataIngestion init | dataset=issaisasank/guns-object-detection | target=artifacts
+2026-05-03 15:41:00,748 - INFO - src.data_ingestion - Downloading dataset from Kaggle ...
+2026-05-03 15:41:06,045 - INFO - src.data_ingestion - Kaggle cache path: /root/.cache/kagglehub/datasets/issaisasank/guns-object-detection/versions/1
+2026-05-03 15:41:06,212 - INFO - src.data_ingestion - Flattened: 666 images, 666 labels
+2026-05-03 15:41:06,212 - INFO - src.data_ingestion - Data ingestion complete. Raw data at: artifacts/raw

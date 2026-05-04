@@ -1,0 +1,27 @@
+stages:
+  data_ingestion:
+    cmd: >-
+      python -c
+      "import sys; sys.path.insert(0, '.');
+      from src.data_ingestion import DataIngestion;
+      DataIngestion().run()"
+    deps:
+      - src/data_ingestion.py
+      - config/data_ingestion_config.py
+    outs:
+      - artifacts/raw/
+
+  model_training:
+    cmd: >-
+      python -c
+      "import sys; sys.path.insert(0, '.');
+      from src.model_training import ModelTraining;
+      ModelTraining().run()"
+    deps:
+      - src/model_training.py
+      - src/model_architecture.py
+      - src/data_processing.py
+      - config/data_ingestion_config.py
+      - artifacts/raw/
+    outs:
+      - artifacts/models/fasterrcnn.pth
