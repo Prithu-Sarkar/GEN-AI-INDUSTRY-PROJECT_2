@@ -1,0 +1,8 @@
+Region,City_Count,Avg_Viability,Avg_ROI_Pct,Avg_Payback_Yrs,Total_Installations,Avg_Annual_Savings_USD,Avg_GHI,Total_CO2_Reduction
+Middle East,1,67.0,14.5,6.9,920,2160.0,5.9,5.76
+Africa,3,66.33,14.27,7.03,3850,2137.5,5.77,17.1
+Oceania,3,60.0,12.17,8.3,26700,1822.5,5.07,14.58
+North America,8,58.12,12.02,8.72,718200,1801.41,4.82,38.43
+Asia,12,57.25,11.42,9.0,1469100,1710.0,4.79,54.72
+South America,5,56.0,10.54,9.7,12170,1579.5,4.8,21.06
+Europe,16,46.12,8.85,11.89,97600,1328.91,3.69,56.7

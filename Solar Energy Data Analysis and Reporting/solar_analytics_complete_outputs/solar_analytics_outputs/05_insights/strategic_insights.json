@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-05-05T05:27:56.509619",
+  "dataset_summary": {
+    "cities": 48,
+    "countries": 30,
+    "regions": 7,
+    "data_quality_score": 99.7,
+    "data_grade": "A"
+  },
+  "market_insights": {
+    "best_solar_city": "Phoenix",
+    "best_viability_score": 73.0,
+    "fastest_payback_city": "Phoenix",
+    "fastest_payback_years": 5.8,
+    "highest_co2_impact_city": "Phoenix",
+    "highest_co2_tons_yr": 6.84
+  },
+  "regional_priorities": {
+    "top_region": "Middle East",
+    "top_avg_viability": 67.0,
+    "weakest_region": "Europe",
+    "low_avg_viability": 46.12
+  },
+  "financial_signals": {
+    "global_avg_roi_pct": 10.86,
+    "global_avg_payback_yrs": 9.78,
+    "global_avg_annual_savings_usd": 1627.73,
+    "total_co2_offset_tons_yr": 208.35
+  },
+  "strategic_recommendations": [
+    "\ud83c\udf1f PRIORITY MARKET: Phoenix (Score 73) is the #1 deployment target \u2014 highest composite viability globally.",
+    "\u26a1 FAST-PAYBACK OPPORTUNITY: Phoenix offers a 5.8-year payback \u2014 ideal for risk-averse institutional investors.",
+    "\ud83c\udf0d REGIONAL EXPANSION: Middle East leads with avg viability 67.0. Scale infrastructure investment here first.",
+    "\u26a0\ufe0f DEVELOPMENT ZONE: Europe has the lowest avg viability (46.1) \u2014 requires policy/subsidy analysis before deployment.",
+    "\ud83c\udf31 ESG IMPACT: Across 48 cities, total potential CO\u2082 offset is 208 metric tons/year \u2014 a strong ESG value proposition.",
+    "\ud83d\udcb0 FINANCIAL RETURN: Global avg ROI of 10.9% with avg savings $1,628/year demonstrates compelling payback economics.",
+    "\ud83d\udd17 MULTICOLLINEARITY WARNING: GHI, Daily Peak Hours, and Annual Production are highly correlated (VIF>10). Use regularised models (Ridge/Lasso) for predictive tasks.",
+    "\ud83d\udcca DATA QUALITY: DQS = 99.7/100 (Grade A) \u2014 dataset is production-ready with no missing values or structural anomalies."
+  ]
+}

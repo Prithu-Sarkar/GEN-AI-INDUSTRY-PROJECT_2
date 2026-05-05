@@ -1,0 +1,61 @@
+,,City,Country,Region,Solar_Viability_Score,ROI_Percentage,Payback_Period_Years,CO2_Reduction_Tons_per_Year,Estimated_Annual_Savings_USD,GHI_kWh_per_m2
+Best Solar Viability,1,Phoenix,United States,North America,73.0,,,,,
+Best Solar Viability,2,Dubai,UAE,Asia,70.0,,,,,
+Best Solar Viability,3,Cairo,Egypt,Africa,68.0,,,,,
+Best Solar Viability,4,Los Angeles,United States,North America,67.0,,,,,
+Best Solar Viability,5,Tel Aviv,Israel,Middle East,67.0,,,,,
+Best Solar Viability,6,Johannesburg,South Africa,Africa,66.0,,,,,
+Best Solar Viability,7,Cape Town,South Africa,Africa,65.0,,,,,
+Best Solar Viability,8,Delhi,India,Asia,64.0,,,,,
+Best Solar Viability,9,Brisbane,Australia,Oceania,63.0,,,,,
+Best Solar Viability,10,Athens,Greece,Europe,63.0,,,,,
+Highest ROI,1,Phoenix,United States,North America,,17.2,,,,
+Highest ROI,2,Dubai,UAE,Asia,,15.9,,,,
+Highest ROI,3,Cairo,Egypt,Africa,,15.4,,,,
+Highest ROI,4,Los Angeles,United States,North America,,14.5,,,,
+Highest ROI,5,Tel Aviv,Israel,Middle East,,14.5,,,,
+Highest ROI,6,Johannesburg,South Africa,Africa,,13.9,,,,
+Highest ROI,7,Miami,United States,North America,,13.5,,,,
+Highest ROI,8,Cape Town,South Africa,Africa,,13.5,,,,
+Highest ROI,9,Delhi,India,Asia,,13.0,,,,
+Highest ROI,10,Brisbane,Australia,Oceania,,13.0,,,,
+Fastest Payback,1,Phoenix,United States,North America,,,5.8,,,
+Fastest Payback,2,Dubai,UAE,Asia,,,6.3,,,
+Fastest Payback,3,Cairo,Egypt,Africa,,,6.5,,,
+Fastest Payback,4,Los Angeles,United States,North America,,,6.9,,,
+Fastest Payback,5,Tel Aviv,Israel,Middle East,,,6.9,,,
+Fastest Payback,6,Johannesburg,South Africa,Africa,,,7.2,,,
+Fastest Payback,7,Cape Town,South Africa,Africa,,,7.4,,,
+Fastest Payback,8,Miami,United States,North America,,,7.4,,,
+Fastest Payback,9,Athens,Greece,Europe,,,7.7,,,
+Fastest Payback,10,Brisbane,Australia,Oceania,,,7.7,,,
+Most CO₂ Impact,1,Phoenix,United States,North America,,,,6.84,,
+Most CO₂ Impact,2,Dubai,UAE,Asia,,,,6.3,,
+Most CO₂ Impact,3,Cairo,Egypt,Africa,,,,6.12,,
+Most CO₂ Impact,4,Los Angeles,United States,North America,,,,5.76,,
+Most CO₂ Impact,5,Tel Aviv,Israel,Middle East,,,,5.76,,
+Most CO₂ Impact,6,Johannesburg,South Africa,Africa,,,,5.58,,
+Most CO₂ Impact,7,Miami,United States,North America,,,,5.4,,
+Most CO₂ Impact,8,Cape Town,South Africa,Africa,,,,5.4,,
+Most CO₂ Impact,9,Delhi,India,Asia,,,,5.22,,
+Most CO₂ Impact,10,Brisbane,Australia,Oceania,,,,5.22,,
+Highest Annual Savings,1,Phoenix,United States,North America,,,,,2565.0,
+Highest Annual Savings,2,Dubai,UAE,Asia,,,,,2362.5,
+Highest Annual Savings,3,Cairo,Egypt,Africa,,,,,2295.0,
+Highest Annual Savings,4,Los Angeles,United States,North America,,,,,2160.0,
+Highest Annual Savings,5,Tel Aviv,Israel,Middle East,,,,,2160.0,
+Highest Annual Savings,6,Johannesburg,South Africa,Africa,,,,,2092.5,
+Highest Annual Savings,7,Miami,United States,North America,,,,,2025.0,
+Highest Annual Savings,8,Cape Town,South Africa,Africa,,,,,2025.0,
+Highest Annual Savings,9,Delhi,India,Asia,,,,,1957.5,
+Highest Annual Savings,10,Brisbane,Australia,Oceania,,,,,1957.5,
+Highest GHI Resource,1,Phoenix,United States,North America,,,,,,6.5
+Highest GHI Resource,2,Dubai,UAE,Asia,,,,,,6.2
+Highest GHI Resource,3,Cairo,Egypt,Africa,,,,,,6.0
+Highest GHI Resource,4,Tel Aviv,Israel,Middle East,,,,,,5.9
+Highest GHI Resource,5,Los Angeles,United States,North America,,,,,,5.8
+Highest GHI Resource,6,Johannesburg,South Africa,Africa,,,,,,5.7
+Highest GHI Resource,7,Cape Town,South Africa,Africa,,,,,,5.6
+Highest GHI Resource,8,Santiago,Chile,South America,,,,,,5.5
+Highest GHI Resource,9,Delhi,India,Asia,,,,,,5.5
+Highest GHI Resource,10,Brisbane,Australia,Oceania,,,,,,5.4

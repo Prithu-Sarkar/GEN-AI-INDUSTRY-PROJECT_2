@@ -1,0 +1,18 @@
+,Column,role,type,desc,dtype_actual
+0,City,id,categorical,City name,object
+1,Country,id,categorical,Country name,object
+2,Latitude,geo,continuous,Geographic latitude (°),float64
+3,Longitude,geo,continuous,Geographic longitude (°),float64
+4,Annual_Sunlight_Hours,resource,continuous,Annual usable sunlight hours,int64
+5,Daily_Peak_Sun_Hours,resource,continuous,Daily peak sun hours (~1000 W/m²),float64
+6,GHI_kWh_per_m2,resource,continuous,Global Horizontal Irradiance (kWh/m²/yr),float64
+7,Electricity_Price_USD_per_kWh,economic,continuous,Local retail electricity price (USD/kWh),float64
+8,Solar_Installations_Count,market,continuous,Number of installed PV systems,int64
+9,Avg_System_Cost_USD,economic,continuous,Average upfront system cost (USD),int64
+10,Avg_Annual_Production_kWh,output,continuous,Avg annual electricity generation (kWh),int64
+11,Estimated_Annual_Savings_USD,financial,continuous,Estimated annual bill savings (USD),float64
+12,Payback_Period_Years,financial,continuous,Years to recover system cost,float64
+13,ROI_Percentage,financial,continuous,Return on investment (%),float64
+14,CO2_Reduction_Tons_per_Year,environmental,continuous,Annual CO₂ reduction (metric tons),float64
+15,Solar_Viability_Score,target,continuous,Composite solar suitability score,int64
+16,Region,geo_group,categorical,Continental region,object

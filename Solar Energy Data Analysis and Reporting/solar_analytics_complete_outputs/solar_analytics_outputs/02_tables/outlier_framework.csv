@@ -1,0 +1,15 @@
+,column,IQR_outliers,IQR_outlier_pct,ZScore_outliers,ZScore_outlier_pct,mean,std,skew,kurt
+0,Latitude,0,0.0,0,0.0,23.609,30.181,-0.937,-0.488
+1,Longitude,0,0.0,0,0.0,17.611,78.169,0.042,-0.833
+2,Annual_Sunlight_Hours,0,0.0,0,0.0,2411.458,582.752,0.195,-0.685
+3,Daily_Peak_Sun_Hours,0,0.0,0,0.0,6.602,1.594,0.201,-0.671
+4,GHI_kWh_per_m2,0,0.0,0,0.0,4.531,1.0,-0.129,-1.008
+5,Electricity_Price_USD_per_kWh,0,0.0,0,0.0,0.15,0.0,0.0,0.0
+6,Solar_Installations_Count,10,20.83,2,4.17,48511.25,126091.425,3.909,15.726
+7,Avg_System_Cost_USD,0,0.0,0,0.0,15000.0,0.0,0.0,0.0
+8,Avg_Annual_Production_kWh,0,0.0,0,0.0,10851.562,2622.384,0.195,-0.685
+9,Estimated_Annual_Savings_USD,0,0.0,0,0.0,1627.734,393.358,0.195,-0.685
+10,Payback_Period_Years,0,0.0,0,0.0,9.781,2.488,0.567,-0.717
+11,ROI_Percentage,0,0.0,0,0.0,10.863,2.648,0.218,-0.663
+12,CO2_Reduction_Tons_per_Year,0,0.0,0,0.0,4.341,1.049,0.195,-0.685
+13,Solar_Viability_Score,0,0.0,0,0.0,54.5,9.82,-0.269,-0.936
