@@ -1,0 +1,17 @@
+feature,mean_abs_shap
+alcohol_density_ratio,0.2561174
+sulphates,0.18965693
+volatile_acidity,0.13676935
+total_sulfur_dioxide,0.07013465
+chlorides,0.052102875
+ph,0.04551229
+sulfur_ratio,0.04317572
+residual_sugar,0.042582244
+citric_acid,0.03423187
+density,0.030773418
+acidity_sum,0.030449912
+fixed_acidity,0.026380263
+alcohol,0.010667806
+log_alcohol,0.0
+ph_sq,0.0
+log_chlorides,0.0

@@ -1,0 +1,12 @@
+feature,mutual_info,f_score
+alcohol,0.1695,407.01
+volatile_acidity,0.1144,251.19
+sulphates,0.0939,89.57
+total_sulfur_dioxide,0.0592,44.33
+density,0.0497,47.69
+fixed_acidity,0.0492,19.5
+ph,0.0265,4.15
+citric_acid,0.024,74.45
+chlorides,0.0078,23.69
+free_sulfur_dioxide,0.0014,3.46
+residual_sugar,0.0004,0.25

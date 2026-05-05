@@ -1,0 +1,13 @@
+column,dtype,unique,nulls,null_pct,min,max,mean
+fixed_acidity,float64,96,0,0.0,4.6,15.9,8.3196
+volatile_acidity,float64,143,0,0.0,0.12,1.58,0.5278
+citric_acid,float64,80,0,0.0,0.0,1.0,0.271
+residual_sugar,float64,91,0,0.0,0.9,15.5,2.5388
+chlorides,float64,153,0,0.0,0.012,0.611,0.0875
+free_sulfur_dioxide,float64,60,0,0.0,1.0,72.0,15.8749
+total_sulfur_dioxide,float64,144,0,0.0,6.0,289.0,46.4678
+density,float64,436,0,0.0,0.99007,1.00369,0.9967
+ph,float64,89,0,0.0,2.74,4.01,3.3111
+sulphates,float64,96,0,0.0,0.33,2.0,0.6581
+alcohol,float64,65,0,0.0,8.4,14.9,10.423
+quality,int64,6,0,0.0,3.0,8.0,5.636

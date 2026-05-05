@@ -1,0 +1,12 @@
+feature,levene_stat,p_value,homoscedastic
+fixed_acidity,5.064,0.0001,False
+volatile_acidity,6.555,0.0,False
+citric_acid,2.397,0.0356,False
+residual_sugar,1.313,0.2558,True
+chlorides,1.476,0.1945,True
+free_sulfur_dioxide,1.917,0.0886,True
+total_sulfur_dioxide,17.675,0.0,False
+density,7.839,0.0,False
+ph,0.344,0.8864,True
+sulphates,0.2,0.9626,True
+alcohol,18.742,0.0,False

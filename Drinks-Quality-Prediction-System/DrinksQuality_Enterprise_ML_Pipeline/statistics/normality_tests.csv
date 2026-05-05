@@ -1,0 +1,12 @@
+feature,shapiro_p,shapiro_normal,dagostino_p,dagostino_normal,anderson_stat,anderson_crit5,anderson_normal
+fixed_acidity,0.0,False,0.0,False,21.801,0.785,False
+volatile_acidity,0.0,False,0.0,False,6.0739,0.785,False
+citric_acid,0.0,False,0.0,False,14.8992,0.785,False
+residual_sugar,0.0,False,0.0,False,151.214,0.785,False
+chlorides,0.0,False,0.0,False,183.5554,0.785,False
+free_sulfur_dioxide,0.0,False,0.0,False,32.684,0.785,False
+total_sulfur_dioxide,0.0,False,0.0,False,44.2994,0.785,False
+density,0.0,False,0.0,False,2.8749,0.785,False
+ph,0.0,False,0.0,False,1.5377,0.785,False
+sulphates,0.0,False,0.0,False,42.981,0.785,False
+alcohol,0.0,False,0.0,False,30.9818,0.785,False

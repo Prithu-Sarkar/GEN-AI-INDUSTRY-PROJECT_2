@@ -1,0 +1,12 @@
+feature,f_stat,p_value,eta_sq,significant,effect
+fixed_acidity,5.185,0.000102,0.0188,True,Small
+volatile_acidity,53.444,0.0,0.1649,True,Large
+citric_acid,16.291,0.0,0.0568,True,Small
+residual_sugar,1.14,0.337335,0.0042,False,Small
+chlorides,5.402,6.3e-05,0.0196,True,Small
+free_sulfur_dioxide,4.793,0.000239,0.0174,True,Small
+total_sulfur_dioxide,23.026,0.0,0.0784,True,Medium
+density,12.858,0.0,0.0454,True,Small
+ph,4.377,0.000588,0.0159,True,Small
+sulphates,18.537,0.0,0.0641,True,Medium
+alcohol,103.438,0.0,0.2765,True,Large

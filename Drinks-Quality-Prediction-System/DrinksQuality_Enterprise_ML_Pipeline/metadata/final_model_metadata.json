@@ -1,0 +1,66 @@
+{
+    "pipeline_version": "2.0.0",
+    "timestamp": "2026-05-05T11:08:51.582608",
+    "dataset": {
+        "n_samples": 1359,
+        "n_features": 11,
+        "target": "quality"
+    },
+    "best_regression": {
+        "name": "Extra Trees",
+        "test_r2": 0.4229,
+        "test_rmse": 0.6222,
+        "test_mae": 0.4862
+    },
+    "best_classification": {
+        "name": "LightGBM",
+        "test_auc": 0.5329,
+        "test_f1": 0.0909,
+        "test_acc": 0.8529
+    },
+    "stacking": {
+        "reg_r2": 0.4236244636119104,
+        "clf_auc": 0.48959171937895346
+    },
+    "top_features_shap": [
+        "alcohol_density_ratio",
+        "sulphates",
+        "volatile_acidity",
+        "total_sulfur_dioxide",
+        "chlorides"
+    ],
+    "final_feature_set": [
+        "density",
+        "residual_sugar",
+        "sulphates",
+        "alcohol_density_ratio",
+        "alcohol",
+        "sulfur_ratio",
+        "volatile_acidity",
+        "ph",
+        "chlorides",
+        "log_alcohol",
+        "total_sulfur_dioxide",
+        "fixed_acidity",
+        "log_chlorides",
+        "ph_sq",
+        "acidity_sum",
+        "citric_acid"
+    ],
+    "scaler": "RobustScaler",
+    "random_state": 42,
+    "environment": {
+        "python": "3.12.13",
+        "sklearn": "1.6.1",
+        "pandas": "2.2.2",
+        "numpy": "2.0.2",
+        "matplotlib": "3.10.0",
+        "seaborn": "0.13.2",
+        "plotly": "5.24.1",
+        "xgboost": "3.2.0",
+        "lightgbm": "4.6.0",
+        "catboost": "1.2.10",
+        "shap": "0.51.0",
+        "timestamp": "2026-05-05T10:55:27.767498"
+    }
+}
