@@ -1,0 +1,9 @@
+openai
+python-dotenv
+beautifulsoup4
+lxml
+requests
+fastapi
+uvicorn
+guardrails-ai
+pydantic

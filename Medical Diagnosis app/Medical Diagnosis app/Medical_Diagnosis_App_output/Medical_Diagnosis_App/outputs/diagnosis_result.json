@@ -1,0 +1,64 @@
+{
+  "symptom": [
+    "chills",
+    "fatigue",
+    "fever",
+    "headache",
+    "nausea"
+  ],
+  "diagnosis": "**Possible Medical Diagnosis:**\nBased on the symptoms, possible diagnoses include:\n1. Influenza (flu)\n2. Viral gastroenteritis (stomach flu)\n3. Urinary tract infection (UTI)\n4. Pneumonia\n5. Meningitis (less likely, but requires immediate attention)\n\n**Possible Cure/Treatment:**\nTreatment depends on the underlying cause, but general measures include:\n1. Rest and hydration\n2. Over-the-counter medications (e.g., acetaminophen or ibuprofen) for fever and headache\n3. Anti-nausea medications (if prescribed)\n4. Antibiotics (if bacterial infection is confirmed)\n5. Antiviral medications (if influenza is confirmed)\n\n**Next Steps:**\nIt is essential to consult a healthcare professional for a proper diagnosis and personalized treatment plan.",
+  "pubmed_articles": [
+    {
+      "title": "Active vaccine safety surveillance: Experience from a prospective cohort event monitoring study of COVID-19 vaccines in Kenya.",
+      "abstract": "Although active vaccine safety surveillance (VSS) can complement passive VSS while overcoming the inherent limitations of spontaneous safety monitoring, it remains rare in sub-Saharan Africa. We conducted post-authorization active VSS of COVID-19 vaccines in Kilifi, Kenya using a cohort event monitoring study design. Participants were followed weekly over 13 weeks for adverse events. A subset was followed daily for one week for solicited systemic reactogenicity events (chills, fatigue, fever, headache, joint pain, malaise, muscle aches, nausea). The daily prevalence of reactogenicity events was compared to the 3-day pre-vaccine average using McNemar's test. The association of baseline characteristics with reactogenicity events was assessed using logistic regression. Between 28th September 2022 and 30th June 2023, 2,440 participants were enrolled into the cohort; 1,000 systematically sampled participants were included in the reactogenicity sub-study. Most were aged 17-39 years (1683; 69.0%) and were female (1895; 77.7%); 535 (28.2%) female participants were pregnant. The three most frequently reported reactogenicity events were fatigue (422; 44.1%), headache (370; 38.7%), and malaise (346; 36.2%); the proportion of severe events ranged from 2.3% (22; nausea) to 5.0% (48; malaise). Except for headache, the prevalence of systemic reactogenicity events was significantly higher in the first two days post-vaccination than pre-vaccination (p-values <0.05). The odds of reactogenicity events were higher among non-pregnant women (adjusted odds ratio [aOR] 1.81; 95% CI 1.28-2.55) and pregnant women (aOR 1.69; 1.03-2.78) than among men, and higher among Johnson & Johnson (aOR 2.05; 1.40-3.00) and Moderna (aOR 4.19; 2.34-7.51) vaccine recipients than among Pfizer vaccine recipients. The prevalence of pregnancy complications was 2.6% (95% CI 1.4-3.5%) against a background prevalence of 3-49%. Reactogenicity events following COVID-19 vaccination were generally non-severe and transient. There was no elevated risk of pregnancy-related complications. Addressing operational barriers is essential for enhancing the utility and feasibility of future active VSS. Copyright: \u00a9 2025 Odhiambo et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+      "authors": [
+        "Don B Odhiambo",
+        "Donald Akech",
+        "Boniface Karia",
+        "Makobu Kimani",
+        "Samuel Sang",
+        "Antipa Sigilai",
+        "Shirine Voller",
+        "Christine Mataza",
+        "David Mang'ong'o",
+        "Rose Jalang'o",
+        "Martha Mandale",
+        "Anthony O Etyang",
+        "John Anthony Gerard Scott",
+        "Ambrose Agweyu",
+        "Eunice Wangeci Kagucia"
+      ],
+      "publication_date": "2025",
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/41248143/"
+    },
+    {
+      "title": "Bacteremia caused byHelicobacter trogontumindicative of zoonotic infection in a pig farmer: a case report.",
+      "abstract": "Helicobacter pylori was first isolated from humans in 1983. Since then, >50 Helicobacter species have been registered. Helicobacter trogontum was first isolated from rat colonic mucosa in 1996 and has been isolated from pig feces and the livers of aborted sheep. H. trogontum adheres to and invades human cells and secretes factors that may contribute to disease development. A 41-year-old woman, who worked on a pig farm, presented to our hospital with sudden-onset headache, nausea, general fatigue, chills, and fever. Plain computed tomography revealed small lymph nodes in the ileocecal region. Intravenous ceftriaxone, vancomycin, and acyclovir were administered for suspected meningoencephalitis. She was discharged from the hospital on day 9 after her symptoms improved. The cerebrospinal fluid culture was negative. However, an aerobic bottle was positive in one of two blood culture sets. Microscopic examination with Gram staining revealed fusiform gram-negative bacteria. Whole genome sequencing of the NHP16-4001 isolate confirmed H. trogontum infection. Case reports of human infection with H. trogontum are rare. However, H. trogontum has been reported to cause enterocolitis and sepsis in an immunocompetent human, and skin lesions as well as bacteremia in an immunocompromised human. H. trogontum was isolated from pigs, sheep, and mice, suggesting its potential importance as a zoonotic disease. In this case, we hypothesize that bacteremia development was related to contact with pig feces on the patient's farm. Thus, H. trogontum infection may be considered a zoonosis; however, further reports are warranted for arriving at a definitive conclusion. Copyright \u00a9 2025 Hojo et al.",
+      "authors": [
+        "Nobumasa Hojo",
+        "Takashi Unehara",
+        "Masato Suzuki",
+        "Michio Suzuki",
+        "Emiko Rimbara"
+      ],
+      "publication_date": "Sep 2025",
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/41244967/"
+    },
+    {
+      "title": "Sex, Age, and COVID-19 Vaccine Characteristics Associated with Adverse Events After Vaccination and Severity: A Retrospective Analysis.",
+      "abstract": "Although the safety of COVID-19 vaccines has been demonstrated in clinical trials, real-world pharmacovigilance remains essential to detect rare or unexpected adverse events following immunization (AEFI). In Mexico, the national AEFI surveillance system is in place, yet there is limited analysis of state-level data. To characterize AEFI related to five COVID-19 vaccines and identify factors associated with AEFI type and seriousness in Nuevo Le\u00f3n, Mexico. A retrospective analysis of the State of Nuevo Le\u00f3n AEFI database was conducted, including all AEFI reports between December 2020 and June 2022 (n = 2213). Data included patient sex, age, vaccine type (Pfizer/BioNTech, AstraZeneca, Sinovac, Moderna, CanSino), number of doses (1 or \u22652), symptom categories, and AEFI seriousness. Symptoms were classified as local or systemic and grouped by organ systems. Descriptive analysis and binary multivariate logistic regression were used to examine associations between demographic and vaccine-related factors with AEFI type and severity. Odds ratios (OR) with 95% confidence intervals (CI) were estimated. Most AEFI reports involved females aged 19-59 years and occurred after the first vaccine dose. The most frequently reported unexpected adverse events (UAEs) were mild to moderate, including injection-site reactions, headache, chills, fatigue, nausea, fever, dizziness, weakness, myalgia, and tachycardia. The Pfizer/BioNTech vaccine was associated with higher odds of arm pain and lower odds of hemorrhagic events. Receiving \u22652 doses increased the odds of arm pain and systemic symptoms. Less than 3% of AEFIs were classified as serious. Older adults (\u226565 years) and second vaccine doses were associated with increased odds of a serious AEFI, while female sex and receiving the Pfizer/BioNTech vaccine were associated with reduced odds. In Nuevo Le\u00f3n, most AEFIs related to COVID-19 vaccination were mild to moderate and resolved without complications. Serious AEFIs were uncommon, with older age and second doses associated with higher risk, and female sex and Pfizer/BioNTech vaccination associated with lower risk. These findings provide a local perspective on vaccine safety that complements national and international evidence.",
+      "authors": [
+        "Edgar P Rodr\u00edguez-Vidales",
+        "Jes\u00fas M Santos-Flores",
+        "Mara I Garza-Rodr\u00edguez",
+        "Ana M Salinas-Mart\u00ednez",
+        "Alejandra G Mart\u00ednez-P\u00e9rez",
+        "Roberto Montes de Oca-Luna",
+        "Alma R Marroqu\u00edn-Escamilla"
+      ],
+      "publication_date": "Sep 2025",
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/40981328/"
+    }
+  ],
+  "pubmed_summary": "Researchers conducted an active vaccine safety surveillance study in Kilifi, Kenya to monitor adverse events following COVID-19 vaccination. Between September 2022 and June 2023, 2,440 participants were enrolled, with 1,000 included in a sub-study on systemic reactogenicity events. The most common reactogenicity events were fatigue, headache, and malaise, with the prevalence of these events significantly higher in the first two days post-vaccination than pre-vaccination. The odds of reactogenicity events were higher among non-pregnant and pregnant women, as well as recipients of the Johnson & Johnson and Moderna vaccines, compared to men and Pfizer vaccine recipients. The study found that reactogenicity events were generally non-severe and transient, with no elevated risk of pregnancy-related complications. The study highlights the importance of addressing operational barriers to enhance the utility and feasibility of active vaccine safety surveillance in sub-Saharan Africa."
+}
