@@ -1,0 +1,7 @@
+{
+  "phase": "Phase 7 \u2014 LangChain Resume Analyzer",
+  "status": "completed",
+  "model": "llama-3.1-8b-instant",
+  "chain": "ChatPromptTemplate | ChatGroq | StrOutputParser",
+  "analysis_output": "```json\n{\n  \"skills\": [\n    \"FastAPI\",\n    \"Django\",\n    \"AWS SageMaker\",\n    \"Python\",\n    \"Docker\",\n    \"PostgreSQL\"\n  ],\n  \"experience_years\": 5,\n  \"fit_score\": 8,\n  \"summary\": \"Highly skilled AI Engineer with 5 years of experience in building and deploying REST APIs, as well as leading a team of engineers. Proficient in a range of technologies including FastAPI, Django, AWS SageMaker, Python, Docker, and PostgreSQL.\"\n}\n```\n\nThe fit score of 8 is based on the following factors:\n\n- Relevant experience: 3/5 (5 years of experience in AI-related roles)\n- Technical skills: 4/5 (proficient in multiple relevant technologies)\n- Leadership experience: 1/5 (led a team of 3 engineers, but no further details are provided)"
+}

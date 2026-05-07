@@ -1,0 +1,24 @@
+{
+  "phase": "Phase 4 \u2014 Query Validation",
+  "status": "completed",
+  "results": [
+    {
+      "original": "Find the latest AI trends and buy some books",
+      "normalized": "find the latest ai trends and buy some books",
+      "cleaned": "search recent ai trends purchase some books",
+      "signature": "search_recent_ai_trends_purchase_some_books"
+    },
+    {
+      "original": "search for python developer jobs",
+      "normalized": "search for python developer jobs",
+      "cleaned": "search python developer jobs",
+      "signature": "search_python_developer_jobs"
+    },
+    {
+      "original": "What are the best practices for FastAPI?",
+      "normalized": "what are the best practices for fastapi?",
+      "cleaned": "what are best practices fastapi?",
+      "signature": "what_are_best_practices_fastapi?"
+    }
+  ]
+}

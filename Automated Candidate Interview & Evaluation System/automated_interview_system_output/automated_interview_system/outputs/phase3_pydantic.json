@@ -1,0 +1,17 @@
+{
+  "phase": "Phase 3 \u2014 Pydantic Models",
+  "status": "completed",
+  "request_fields": [
+    "user_id",
+    "email",
+    "query",
+    "tags"
+  ],
+  "response_fields": [
+    "status",
+    "message",
+    "result_count",
+    "results",
+    "processed_at"
+  ]
+}
