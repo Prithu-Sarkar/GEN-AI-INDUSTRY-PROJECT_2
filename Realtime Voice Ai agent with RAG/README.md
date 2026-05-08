@@ -2,6 +2,13 @@
 
 > A production-grade, real-time voice AI assistant with Retrieval-Augmented Generation (RAG), designed for enterprise call-center support automation. The agent listens to a caller in real time, retrieves grounded answers from a structured knowledge base, and responds with synthesized speech — all within a sub-second pipeline.
 
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.111+-009688?style=flat-square&logo=fastapi&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
+![CI](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
 ---
 
 ## Table of Contents
