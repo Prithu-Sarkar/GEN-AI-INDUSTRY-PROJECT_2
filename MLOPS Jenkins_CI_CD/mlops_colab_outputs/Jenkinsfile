@@ -1,0 +1,29 @@
+@Library('jenkins-shared') _
+
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                gitCheckout(
+                    'https://github.com/Prithu-Sarkar/GEN-AI-INDUSTRY-PROJECT_2.git',
+                    '*/main',
+                    'github-token'
+                )
+            }
+        }
+
+        stage('Install Kubectl') {
+            steps {
+                installKubectl()
+            }
+        }
+
+        stage('Deploy to Kubernetes') {
+            steps {
+                k8sDeploy('kubeconfig')
+            }
+        }
+    }
+}
