@@ -1,0 +1,6 @@
+Model,Accuracy,ROC-AUC,MLflow Run ID
+Gradient Boosting,0.8759,0.929,7bd506d4daa54c7dbdef4a4a0950ffd8
+Decision Tree,0.8604,0.9036,5c51f8d3fb914a9fb1c411a27b2def94
+Logistic Regression,0.8538,0.9032,de0b93da9e6c4d89bf2ad5b99b55a611
+XGBoost_Tuned,0.8394,0.9275,07a2b5c266344c488122848c65c5d80b
+XGBoost,0.8381,0.9283,e7e76854e9914820b6fe509920a66397
