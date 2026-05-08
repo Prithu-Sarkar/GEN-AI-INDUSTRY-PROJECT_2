@@ -1,0 +1,20 @@
+[
+  {
+    "original": "I want to find a cheap trip to Paris for 5 days",
+    "normalized": "i want to find a cheap trip to paris for 5 days",
+    "cleaned": "search budget travel paris 5 days",
+    "signature": "search_budget_travel_paris_5_days"
+  },
+  {
+    "original": "latest hotels in Tokyo for a holiday",
+    "normalized": "latest hotels in tokyo for a holiday",
+    "cleaned": "recent hotels in tokyo vacation",
+    "signature": "recent_hotels_in_tokyo_vacation"
+  },
+  {
+    "original": "Where can I buy tickets to the Eiffel Tower?",
+    "normalized": "where can i buy tickets to the eiffel tower?",
+    "cleaned": "where can purchase tickets eiffel tower?",
+    "signature": "where_can_purchase_tickets_eiffel_tower?"
+  }
+]

@@ -1,0 +1,12 @@
+Attempting to initialize Mem0...
+Mem0 initialized successfully.
+
+--- [Step 1] Storing Initial Preference ---
+   Memory ID captured: None
+--- [Step 2] Updating Preference ---
+
+--- [Step 3] Observability Report: Memory Evolution ---
+  Note: Memory ID not captured — check db folder.
+
+--- [Step 4] Semantic Memory Search ---
+  No memories found for this user.

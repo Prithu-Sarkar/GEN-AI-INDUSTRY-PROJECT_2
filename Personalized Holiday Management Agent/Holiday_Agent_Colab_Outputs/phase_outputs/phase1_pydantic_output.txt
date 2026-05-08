@@ -1,0 +1,38 @@
+Request model:
+{
+  "user_id": "user123",
+  "email": "user@example.com",
+  "query": "plan a 5-day trip to Paris",
+  "tags": [
+    "travel",
+    "europe"
+  ]
+}
+
+Response model:
+{
+  "status": "success",
+  "message": "Search completed for user user123",
+  "result_count": 1,
+  "results": [
+    {
+      "id": 1,
+      "title": "Example item",
+      "query": "plan a 5-day trip to Paris"
+    }
+  ],
+  "processed_at": "2026-05-08T13:32:53.684839"
+}
+
+Trip Plan Request:
+{
+  "user_id": "user123",
+  "destination": "Tokyo",
+  "duration_days": 7,
+  "interests": [
+    "anime",
+    "food",
+    "temples"
+  ],
+  "budget": "medium"
+}

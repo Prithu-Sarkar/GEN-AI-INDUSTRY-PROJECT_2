@@ -1,0 +1,20 @@
+2026-05-08 13:20:30,107 | DEBUG | utility_logger | Debugging values: {'step': 1, 'status': 'starting'}
+2026-05-08 13:20:30,107 | INFO | utility_logger | Holiday Agent logging demo started.
+2026-05-08 13:20:30,109 | WARNING | utility_logger | Token budget is approaching 80%% — consider truncating context.
+2026-05-08 13:20:30,111 | ERROR | utility_logger | Division error — would be an API/timeout failure in production.
+Traceback (most recent call last):
+  File "/content/all-utils/utilities/logging_example.py", line 60, in run_logging_demo
+    value = 10 / 0   # simulate a runtime error in an agent step
+            ~~~^~~
+ZeroDivisionError: division by zero
+2026-05-08 13:20:30,113 | INFO | utility_logger | Logging demo finished.
+2026-05-08 13:33:07,143 | DEBUG | utility_logger | Debugging values: {'step': 1, 'status': 'starting'}
+2026-05-08 13:33:07,143 | INFO | utility_logger | Holiday Agent logging demo started.
+2026-05-08 13:33:07,145 | WARNING | utility_logger | Token budget is approaching 80%% — consider truncating context.
+2026-05-08 13:33:07,146 | ERROR | utility_logger | Division error — would be an API/timeout failure in production.
+Traceback (most recent call last):
+  File "/content/all-utils/utilities/logging_example.py", line 60, in run_logging_demo
+    value = 10 / 0   # simulate a runtime error in an agent step
+            ~~~^~~
+ZeroDivisionError: division by zero
+2026-05-08 13:33:07,148 | INFO | utility_logger | Logging demo finished.
