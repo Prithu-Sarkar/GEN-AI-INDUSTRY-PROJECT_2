@@ -1,0 +1,12 @@
+Medical Chatbot - Sample Q&A Demo Output
+==================================================
+
+Q: What is diabetes and what are its main types?
+A: Diabetes mellitus is a disorder of carbohydrate metabolism brought on by a combination of hereditary and environmental factors. It can be divided into two main types: type I, formerly termed juvenile onset or insulin-dependent, and type II.
+
+Q: What are common symptoms of hypertension?
+A: High blood pressure can cause various symptoms, including a severe or continuing headache, sore throat and fever, breathing problems or wheezing, tightness in the chest, dizziness, unusual tiredness or weakness, and weight gain. Additionally, people with high blood pressure may experience changes in the color of the face, skin rash, itching, or hives, and yellow eyes or skin. These symptoms can be indicative of the strain high blood pressure puts on the heart and arteries.
+
+Q: How is pneumonia diagnosed and treated?
+A: I do not know. The provided context does not mention pneumonia diagnosis and treatment.
+

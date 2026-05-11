@@ -1,0 +1,2 @@
+ChromaDB persisted at: /content/medical_chatbot/chroma_store
+Copy this folder to restore the vector index without re-embedding.

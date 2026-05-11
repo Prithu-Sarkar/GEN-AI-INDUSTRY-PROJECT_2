@@ -1,0 +1,9 @@
+RAG Chain Configuration
+========================================
+LLM          : Groq / llama-3.1-8b-instant
+Temperature  : 0.2
+Max tokens   : 512
+Retriever    : ChromaDB similarity, k=3
+Chunk size   : 500 chars / 20 overlap
+Embedding    : all-MiniLM-L6-v2 (384 dims)
+System prompt: src/prompt.py

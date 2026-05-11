@@ -1,0 +1,4 @@
+Collection : medical_chatbot
+Persist dir: /content/medical_chatbot/chroma_store
+Vectors    : 5860
+Embedding  : sentence-transformers/all-MiniLM-L6-v2 (384 dims)
