@@ -1,0 +1,8 @@
+04:32:12 - INFO - EDA chart saved: outputs/eda/class_distribution.png
+04:32:15 - INFO - Sample grid saved: outputs/eda/sample_grid.png
+05:00:40 - INFO - Training history saved: outputs/model/training_history.png
+05:07:52 - INFO - Confusion matrix saved: outputs/model/confusion_matrix.png
+05:07:54 - INFO - ROC curve saved: outputs/model/roc_curve.png
+05:08:10 - INFO - Grad-CAM grid saved: outputs/gradcam/gradcam_grid.png
+05:09:01 - INFO - Generating DOCX report for: Benign (Non-Cancerous)
+05:10:17 - INFO - Generating DOCX report for: Benign (Non-Cancerous)
