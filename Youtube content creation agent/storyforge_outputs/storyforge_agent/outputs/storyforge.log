@@ -1,0 +1,14 @@
+2026-05-13 03:57:41,134 | INFO | storyforge.research | Starting real-time research for: recent advancements in generative ai 2025
+2026-05-13 03:57:43,452 | INFO | storyforge.research | Summary generated successfully (1268 chars).
+2026-05-13 03:57:50,221 | INFO | storyforge.research | Generating video script from summary.
+2026-05-13 03:57:51,060 | INFO | storyforge.research | Script generated (452 chars).
+2026-05-13 03:58:11,630 | DEBUG | utility_logger | Debug payload: {'step': 1, 'status': 'starting'}
+2026-05-13 03:58:11,630 | INFO | utility_logger | Application example started.
+2026-05-13 03:58:11,631 | WARNING | utility_logger | Example warning from logging utility.
+2026-05-13 03:58:11,632 | ERROR | utility_logger | Caught ZeroDivisionError in logging demo.
+Traceback (most recent call last):
+  File "/content/storyforge_agent/utilities/logging_example.py", line 37, in run_logging_demo
+    _ = 10 / 0
+        ~~~^~~
+ZeroDivisionError: division by zero
+2026-05-13 03:58:11,634 | INFO | utility_logger | Logging demo finished.

@@ -1,0 +1,25 @@
+{
+  "request": {
+    "user_id": "storyforge_colab",
+    "email": "researcher@example.com",
+    "query": "recent advancements in generative ai 2025",
+    "tags": [
+      "ai",
+      "youtube",
+      "content-creation"
+    ]
+  },
+  "response": {
+    "status": "success",
+    "message": "Search completed for user storyforge_colab",
+    "result_count": 1,
+    "results": [
+      {
+        "id": 1,
+        "title": "Example item",
+        "query": "recent advancements in generative ai 2025"
+      }
+    ],
+    "processed_at": "2026-05-13T03:57:54.682202"
+  }
+}
