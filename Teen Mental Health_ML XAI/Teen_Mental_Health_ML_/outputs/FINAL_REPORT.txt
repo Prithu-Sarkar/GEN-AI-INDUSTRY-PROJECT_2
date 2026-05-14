@@ -1,0 +1,74 @@
+
+═══════════════════════════════════════════════════════════════════════════════════
+                 TEEN MENTAL HEALTH ML ANALYSIS - FINAL REPORT
+═══════════════════════════════════════════════════════════════════════════════════
+
+📊 DATASET SUMMARY:
+   • Total records: 1200
+   • Original features: 13
+   • Engineered features: 16
+   • Target variable: depression_label
+
+🔍 DATA PREPROCESSING:
+   • Missing values handled: 0
+   • Categorical features encoded: 3
+   • Outliers detected: Using IQR method
+
+🔨 FEATURE ENGINEERING:
+   • Interaction features created
+   • Polynomial features added
+   • Ratio features computed
+   • Feature selection completed (SelectKBest + Mutual Info)
+
+📈 MODELS TRAINED:
+
+   • LogisticRegression:
+     - AUC: 0.9893
+     - Accuracy: 0.9917
+     - F1-Score: 0.8000
+
+   • RandomForest:
+     - AUC: 0.9957
+     - Accuracy: 0.9875
+     - F1-Score: 0.6667
+
+   • XGBoost:
+     - AUC: 1.0000
+     - Accuracy: 0.9958
+     - F1-Score: 0.9091
+
+   • LightGBM:
+     - AUC: 1.0000
+     - Accuracy: 1.0000
+     - F1-Score: 1.0000
+
+   • VotingEnsemble:
+     - AUC: 1.0000
+     - Accuracy: 0.9958
+     - F1-Score: 0.9091
+
+   • StackingEnsemble:
+     - AUC: 1.0000
+     - Accuracy: 0.9958
+     - F1-Score: 0.9091
+
+   • DeepNN:
+     - AUC: 0.9836
+     - Accuracy: 0.9833
+     - F1-Score: 0.7143
+
+🏆 BEST MODEL: LogisticRegression
+
+🔍 EXPLAINABILITY:
+   • SHAP analysis completed for XGBoost
+   • Feature importance extracted
+   • Force plots generated for sample predictions
+
+💾 ARTIFACTS SAVED:
+   • Models: /content/models
+   • Outputs: /content/outputs
+   • Logs: /content/logs
+
+📅 TIMESTAMP: 2026-05-14 03:52:34
+
+═══════════════════════════════════════════════════════════════════════════════════

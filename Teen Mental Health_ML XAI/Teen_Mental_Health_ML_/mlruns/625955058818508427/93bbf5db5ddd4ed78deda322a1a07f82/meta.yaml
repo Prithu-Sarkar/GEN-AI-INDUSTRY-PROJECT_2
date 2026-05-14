@@ -1,0 +1,14 @@
+artifact_uri: file:///content/mlruns/625955058818508427/93bbf5db5ddd4ed78deda322a1a07f82/artifacts
+end_time: 1778730685616
+entry_point_name: ''
+experiment_id: '625955058818508427'
+lifecycle_stage: active
+run_id: 93bbf5db5ddd4ed78deda322a1a07f82
+run_name: VotingEnsemble
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778730684875
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,25 @@
+{
+    "feature_count": 16,
+    "selected_features": [
+        "sleep_hours",
+        "anxiety_level",
+        "daily_social_media_hours_div_screen_time_before_sleep",
+        "daily_social_media_hours_div_sleep_hours",
+        "platform_usage",
+        "age_div_sleep_hours",
+        "daily_social_media_hours",
+        "age_div_daily_social_media_hours",
+        "age_x_sleep_hours",
+        "sleep_hours_sqrt",
+        "daily_social_media_hours_squared",
+        "daily_social_media_hours_sqrt",
+        "sleep_hours_squared",
+        "age_x_daily_social_media_hours",
+        "stress_level",
+        "age_x_stress_level"
+    ],
+    "target_variable": "depression_label",
+    "train_size": 960,
+    "test_size": 240,
+    "timestamp": "2026-05-14T03:52:30.730384"
+}

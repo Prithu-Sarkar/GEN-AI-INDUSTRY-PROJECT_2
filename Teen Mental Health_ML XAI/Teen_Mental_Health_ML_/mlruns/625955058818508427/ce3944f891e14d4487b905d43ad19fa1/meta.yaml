@@ -1,0 +1,14 @@
+artifact_uri: file:///content/mlruns/625955058818508427/ce3944f891e14d4487b905d43ad19fa1/artifacts
+end_time: 1778730723319
+entry_point_name: ''
+experiment_id: '625955058818508427'
+lifecycle_stage: active
+run_id: ce3944f891e14d4487b905d43ad19fa1
+run_name: DeepNN
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778730697791
+status: 3
+tags: []
+user_id: root
