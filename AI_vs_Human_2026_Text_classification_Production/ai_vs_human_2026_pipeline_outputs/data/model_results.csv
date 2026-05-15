@@ -1,0 +1,4 @@
+Model,ROC-AUC (mean),ROC-AUC (std),F1 (mean),Avg Precision,Accuracy,Train Time (s)
+RandomForest,1.0,0.0,0.9985,1.0,0.999,4.62
+XGBoost,1.0,0.0,0.9962,1.0,0.9975,0.95
+LogisticRegression,0.8597,0.0111,0.657,0.8043,0.74,0.25
