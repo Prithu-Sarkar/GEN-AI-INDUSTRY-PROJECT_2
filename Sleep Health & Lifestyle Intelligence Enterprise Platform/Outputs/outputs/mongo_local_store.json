@@ -1,0 +1,1069 @@
+{
+  "predictions": [
+    {
+      "ts": "2026-05-18T03:58:29.670420",
+      "id": 243,
+      "model": "CatBoost",
+      "pred": "Insomnia",
+      "probs": {
+        "Insomnia": 0.9100778575075348,
+        "None": 0.0724717101636348,
+        "Sleep Apnea": 0.01745043232883057
+      },
+      "confidence": 0.9100778575075348
+    },
+    {
+      "ts": "2026-05-18T03:58:29.670529",
+      "id": 254,
+      "model": "CatBoost",
+      "pred": "Insomnia",
+      "probs": {
+        "Insomnia": 0.8738596792441754,
+        "None": 0.10557975827091794,
+        "Sleep Apnea": 0.02056056248490648
+      },
+      "confidence": 0.8738596792441754
+    },
+    {
+      "ts": "2026-05-18T03:58:29.670599",
+      "id": 290,
+      "model": "CatBoost",
+      "pred": "Sleep Apnea",
+      "probs": {
+        "Insomnia": 0.03965417501098531,
+        "None": 0.07001758270220201,
+        "Sleep Apnea": 0.8903282422868127
+      },
+      "confidence": 0.8903282422868127
+    },
+    {
+      "ts": "2026-05-18T03:58:29.670661",
+      "id": 371,
+      "model": "CatBoost",
+      "pred": "Sleep Apnea",
+      "probs": {
+        "Insomnia": 0.016203637599668246,
+        "None": 0.13400000656317784,
+        "Sleep Apnea": 0.8497963558371538
+      },
+      "confidence": 0.8497963558371538
+    },
+    {
+      "ts": "2026-05-18T03:58:29.670715",
+      "id": 244,
+      "model": "CatBoost",
+      "pred": "Insomnia",
+      "probs": {
+        "Insomnia": 0.8982427173065262,
+        "None": 0.06636291306120957,
+        "Sleep Apnea": 0.03539436963226429
+      },
+      "confidence": 0.8982427173065262
+    },
+    {
+      "ts": "2026-05-18T03:58:29.670773",
+      "id": 83,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.1453783730632511,
+        "None": 0.7764931103158694,
+        "Sleep Apnea": 0.0781285166208795
+      },
+      "confidence": 0.7764931103158694
+    },
+    {
+      "ts": "2026-05-18T03:58:29.670826",
+      "id": 32,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.03843684700229428,
+        "None": 0.918613759258965,
+        "Sleep Apnea": 0.0429493937387408
+      },
+      "confidence": 0.918613759258965
+    },
+    {
+      "ts": "2026-05-18T03:58:29.670876",
+      "id": 196,
+      "model": "CatBoost",
+      "pred": "Insomnia",
+      "probs": {
+        "Insomnia": 0.8590493774672927,
+        "None": 0.08116840238187636,
+        "Sleep Apnea": 0.059782220150830886
+      },
+      "confidence": 0.8590493774672927
+    },
+    {
+      "ts": "2026-05-18T03:58:29.670924",
+      "id": 81,
+      "model": "CatBoost",
+      "pred": "Sleep Apnea",
+      "probs": {
+        "Insomnia": 0.17116812050342972,
+        "None": 0.06829582806154787,
+        "Sleep Apnea": 0.7605360514350225
+      },
+      "confidence": 0.7605360514350225
+    },
+    {
+      "ts": "2026-05-18T03:58:29.670971",
+      "id": 160,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.057420833355240924,
+        "None": 0.913554842719855,
+        "Sleep Apnea": 0.02902432392490419
+      },
+      "confidence": 0.913554842719855
+    },
+    {
+      "ts": "2026-05-18T03:58:29.671030",
+      "id": 229,
+      "model": "CatBoost",
+      "pred": "Insomnia",
+      "probs": {
+        "Insomnia": 0.8982427173065262,
+        "None": 0.06636291306120957,
+        "Sleep Apnea": 0.03539436963226429
+      },
+      "confidence": 0.8982427173065262
+    },
+    {
+      "ts": "2026-05-18T03:58:29.671080",
+      "id": 317,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.026590976774587154,
+        "None": 0.9650068353308662,
+        "Sleep Apnea": 0.008402187894546491
+      },
+      "confidence": 0.9650068353308662
+    },
+    {
+      "ts": "2026-05-18T03:58:29.671144",
+      "id": 324,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.0549793801740465,
+        "None": 0.9324642301845412,
+        "Sleep Apnea": 0.012556389641412355
+      },
+      "confidence": 0.9324642301845412
+    },
+    {
+      "ts": "2026-05-18T03:58:29.671206",
+      "id": 18,
+      "model": "CatBoost",
+      "pred": "Sleep Apnea",
+      "probs": {
+        "Insomnia": 0.25135648362363194,
+        "None": 0.11694341687471696,
+        "Sleep Apnea": 0.6317000995016511
+      },
+      "confidence": 0.6317000995016511
+    },
+    {
+      "ts": "2026-05-18T03:58:29.671251",
+      "id": 189,
+      "model": "CatBoost",
+      "pred": "Insomnia",
+      "probs": {
+        "Insomnia": 0.8590493774672927,
+        "None": 0.08116840238187636,
+        "Sleep Apnea": 0.059782220150830886
+      },
+      "confidence": 0.8590493774672927
+    },
+    {
+      "ts": "2026-05-18T03:58:29.678313",
+      "id": 45,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.010419118175194617,
+        "None": 0.9601145739404822,
+        "Sleep Apnea": 0.029466307884323296
+      },
+      "confidence": 0.9601145739404822
+    },
+    {
+      "ts": "2026-05-18T03:58:29.678443",
+      "id": 270,
+      "model": "CatBoost",
+      "pred": "Sleep Apnea",
+      "probs": {
+        "Insomnia": 0.04301101865550593,
+        "None": 0.06991282803454532,
+        "Sleep Apnea": 0.8870761533099487
+      },
+      "confidence": 0.8870761533099487
+    },
+    {
+      "ts": "2026-05-18T03:58:29.678524",
+      "id": 116,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.02143627692822954,
+        "None": 0.9658220313351654,
+        "Sleep Apnea": 0.01274169173660494
+      },
+      "confidence": 0.9658220313351654
+    },
+    {
+      "ts": "2026-05-18T03:58:29.678588",
+      "id": 176,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.09861235804744985,
+        "None": 0.8646904903499821,
+        "Sleep Apnea": 0.03669715160256807
+      },
+      "confidence": 0.8646904903499821
+    },
+    {
+      "ts": "2026-05-18T03:58:29.678645",
+      "id": 157,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.057420833355240924,
+        "None": 0.913554842719855,
+        "Sleep Apnea": 0.02902432392490419
+      },
+      "confidence": 0.913554842719855
+    },
+    {
+      "ts": "2026-05-18T03:58:29.678697",
+      "id": 8,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.010730569131789824,
+        "None": 0.9613520072465535,
+        "Sleep Apnea": 0.027917423621656817
+      },
+      "confidence": 0.9613520072465535
+    },
+    {
+      "ts": "2026-05-18T03:58:29.678746",
+      "id": 102,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.05142270066279957,
+        "None": 0.8108238386404163,
+        "Sleep Apnea": 0.1377534606967842
+      },
+      "confidence": 0.8108238386404163
+    },
+    {
+      "ts": "2026-05-18T03:58:29.678790",
+      "id": 95,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.034221793639183935,
+        "None": 0.9458354742355606,
+        "Sleep Apnea": 0.01994273212525547
+      },
+      "confidence": 0.9458354742355606
+    },
+    {
+      "ts": "2026-05-18T03:58:29.678831",
+      "id": 264,
+      "model": "CatBoost",
+      "pred": "Insomnia",
+      "probs": {
+        "Insomnia": 0.6533634754789558,
+        "None": 0.11705233212526472,
+        "Sleep Apnea": 0.22958419239577954
+      },
+      "confidence": 0.6533634754789558
+    },
+    {
+      "ts": "2026-05-18T03:58:29.678874",
+      "id": 302,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.0744685282394937,
+        "None": 0.87411587320314,
+        "Sleep Apnea": 0.05141559855736619
+      },
+      "confidence": 0.87411587320314
+    },
+    {
+      "ts": "2026-05-18T03:58:29.678924",
+      "id": 73,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.04761163828255912,
+        "None": 0.9321929107336138,
+        "Sleep Apnea": 0.020195450983827176
+      },
+      "confidence": 0.9321929107336138
+    },
+    {
+      "ts": "2026-05-18T03:58:29.678970",
+      "id": 180,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.06565657364834734,
+        "None": 0.9029771691742616,
+        "Sleep Apnea": 0.03136625717739101
+      },
+      "confidence": 0.9029771691742616
+    },
+    {
+      "ts": "2026-05-18T03:58:29.679035",
+      "id": 276,
+      "model": "CatBoost",
+      "pred": "Sleep Apnea",
+      "probs": {
+        "Insomnia": 0.23104981776226502,
+        "None": 0.23602071447854747,
+        "Sleep Apnea": 0.5329294677591876
+      },
+      "confidence": 0.5329294677591876
+    },
+    {
+      "ts": "2026-05-18T03:58:29.679089",
+      "id": 282,
+      "model": "CatBoost",
+      "pred": "Sleep Apnea",
+      "probs": {
+        "Insomnia": 0.03965417501098531,
+        "None": 0.07001758270220201,
+        "Sleep Apnea": 0.8903282422868127
+      },
+      "confidence": 0.8903282422868127
+    },
+    {
+      "ts": "2026-05-18T03:58:29.679165",
+      "id": 352,
+      "model": "CatBoost",
+      "pred": "Sleep Apnea",
+      "probs": {
+        "Insomnia": 0.015630813722603092,
+        "None": 0.11588073012511677,
+        "Sleep Apnea": 0.8684884561522801
+      },
+      "confidence": 0.8684884561522801
+    },
+    {
+      "ts": "2026-05-18T03:58:29.679212",
+      "id": 57,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.04290997649663489,
+        "None": 0.9364408397868118,
+        "Sleep Apnea": 0.020649183716553395
+      },
+      "confidence": 0.9364408397868118
+    },
+    {
+      "ts": "2026-05-18T03:58:29.679259",
+      "id": 43,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.010419118175194617,
+        "None": 0.9601145739404822,
+        "Sleep Apnea": 0.029466307884323296
+      },
+      "confidence": 0.9601145739404822
+    },
+    {
+      "ts": "2026-05-18T03:58:29.679327",
+      "id": 12,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.04491882656356533,
+        "None": 0.8385128708161559,
+        "Sleep Apnea": 0.11656830262027876
+      },
+      "confidence": 0.8385128708161559
+    },
+    {
+      "ts": "2026-05-18T03:58:29.679382",
+      "id": 128,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.04079041656607132,
+        "None": 0.9303796026939838,
+        "Sleep Apnea": 0.02882998073994485
+      },
+      "confidence": 0.9303796026939838
+    },
+    {
+      "ts": "2026-05-18T03:58:29.679436",
+      "id": 357,
+      "model": "CatBoost",
+      "pred": "Sleep Apnea",
+      "probs": {
+        "Insomnia": 0.015630813722603092,
+        "None": 0.11588073012511677,
+        "Sleep Apnea": 0.8684884561522801
+      },
+      "confidence": 0.8684884561522801
+    },
+    {
+      "ts": "2026-05-18T03:58:29.679487",
+      "id": 319,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.027098758041638926,
+        "None": 0.9644448746505225,
+        "Sleep Apnea": 0.008456367307838542
+      },
+      "confidence": 0.9644448746505225
+    },
+    {
+      "ts": "2026-05-18T03:58:29.679548",
+      "id": 21,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.010076176789028751,
+        "None": 0.9614600153233518,
+        "Sleep Apnea": 0.02846380788761956
+      },
+      "confidence": 0.9614600153233518
+    },
+    {
+      "ts": "2026-05-18T03:58:29.679602",
+      "id": 344,
+      "model": "CatBoost",
+      "pred": "Sleep Apnea",
+      "probs": {
+        "Insomnia": 0.015062953117486717,
+        "None": 0.10196793660342979,
+        "Sleep Apnea": 0.8829691102790834
+      },
+      "confidence": 0.8829691102790834
+    },
+    {
+      "ts": "2026-05-18T03:58:29.679651",
+      "id": 347,
+      "model": "CatBoost",
+      "pred": "Sleep Apnea",
+      "probs": {
+        "Insomnia": 0.015062953117486717,
+        "None": 0.10196793660342979,
+        "Sleep Apnea": 0.8829691102790834
+      },
+      "confidence": 0.8829691102790834
+    },
+    {
+      "ts": "2026-05-18T03:58:29.679697",
+      "id": 173,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.06779139328776732,
+        "None": 0.9011961130891797,
+        "Sleep Apnea": 0.031012493623052854
+      },
+      "confidence": 0.9011961130891797
+    },
+    {
+      "ts": "2026-05-18T03:58:29.679747",
+      "id": 62,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.037506541688539126,
+        "None": 0.9438558683474557,
+        "Sleep Apnea": 0.018637589964005
+      },
+      "confidence": 0.9438558683474557
+    },
+    {
+      "ts": "2026-05-18T03:58:29.679791",
+      "id": 15,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.05124641455159012,
+        "None": 0.8001877949075177,
+        "Sleep Apnea": 0.1485657905408923
+      },
+      "confidence": 0.8001877949075177
+    },
+    {
+      "ts": "2026-05-18T03:58:29.679840",
+      "id": 72,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.04761163828255912,
+        "None": 0.9321929107336138,
+        "Sleep Apnea": 0.020195450983827176
+      },
+      "confidence": 0.9321929107336138
+    },
+    {
+      "ts": "2026-05-18T03:58:29.679891",
+      "id": 195,
+      "model": "CatBoost",
+      "pred": "Insomnia",
+      "probs": {
+        "Insomnia": 0.8590493774672927,
+        "None": 0.08116840238187636,
+        "Sleep Apnea": 0.059782220150830886
+      },
+      "confidence": 0.8590493774672927
+    },
+    {
+      "ts": "2026-05-18T03:58:29.679941",
+      "id": 140,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.018985600953118173,
+        "None": 0.9686375937091234,
+        "Sleep Apnea": 0.012376805337758465
+      },
+      "confidence": 0.9686375937091234
+    },
+    {
+      "ts": "2026-05-18T03:58:29.679992",
+      "id": 337,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.027597604098822982,
+        "None": 0.9637275247518801,
+        "Sleep Apnea": 0.00867487114929701
+      },
+      "confidence": 0.9637275247518801
+    },
+    {
+      "ts": "2026-05-18T03:58:29.680043",
+      "id": 253,
+      "model": "CatBoost",
+      "pred": "Insomnia",
+      "probs": {
+        "Insomnia": 0.8738596792441754,
+        "None": 0.10557975827091794,
+        "Sleep Apnea": 0.02056056248490648
+      },
+      "confidence": 0.8738596792441754
+    },
+    {
+      "ts": "2026-05-18T03:58:29.680092",
+      "id": 365,
+      "model": "CatBoost",
+      "pred": "Sleep Apnea",
+      "probs": {
+        "Insomnia": 0.017067435263717037,
+        "None": 0.14416412000795872,
+        "Sleep Apnea": 0.8387684447283242
+      },
+      "confidence": 0.8387684447283242
+    },
+    {
+      "ts": "2026-05-18T03:58:29.680158",
+      "id": 96,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.05920204304764381,
+        "None": 0.9152564335531796,
+        "Sleep Apnea": 0.025541523399176595
+      },
+      "confidence": 0.9152564335531796
+    },
+    {
+      "ts": "2026-05-18T03:58:29.680207",
+      "id": 106,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.16940571937559898,
+        "None": 0.710465707852982,
+        "Sleep Apnea": 0.12012857277141917
+      },
+      "confidence": 0.710465707852982
+    },
+    {
+      "ts": "2026-05-18T03:58:29.680253",
+      "id": 271,
+      "model": "CatBoost",
+      "pred": "Sleep Apnea",
+      "probs": {
+        "Insomnia": 0.04301101865550593,
+        "None": 0.06991282803454532,
+        "Sleep Apnea": 0.8870761533099487
+      },
+      "confidence": 0.8870761533099487
+    },
+    {
+      "ts": "2026-05-18T03:58:29.686381",
+      "id": 334,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.027597604098822982,
+        "None": 0.9637275247518801,
+        "Sleep Apnea": 0.00867487114929701
+      },
+      "confidence": 0.9637275247518801
+    },
+    {
+      "ts": "2026-05-18T03:58:29.686496",
+      "id": 198,
+      "model": "CatBoost",
+      "pred": "Insomnia",
+      "probs": {
+        "Insomnia": 0.8590493774672927,
+        "None": 0.08116840238187636,
+        "Sleep Apnea": 0.059782220150830886
+      },
+      "confidence": 0.8590493774672927
+    },
+    {
+      "ts": "2026-05-18T03:58:29.686561",
+      "id": 257,
+      "model": "CatBoost",
+      "pred": "Insomnia",
+      "probs": {
+        "Insomnia": 0.8471052371879618,
+        "None": 0.13116069961637725,
+        "Sleep Apnea": 0.021734063195660867
+      },
+      "confidence": 0.8471052371879618
+    },
+    {
+      "ts": "2026-05-18T03:58:29.686613",
+      "id": 204,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.13198244349073968,
+        "None": 0.7484722895453365,
+        "Sleep Apnea": 0.11954526696392376
+      },
+      "confidence": 0.7484722895453365
+    },
+    {
+      "ts": "2026-05-18T03:58:29.686661",
+      "id": 54,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.04290997649663489,
+        "None": 0.9364408397868118,
+        "Sleep Apnea": 0.020649183716553395
+      },
+      "confidence": 0.9364408397868118
+    },
+    {
+      "ts": "2026-05-18T03:58:29.686714",
+      "id": 221,
+      "model": "CatBoost",
+      "pred": "Insomnia",
+      "probs": {
+        "Insomnia": 0.863192473730735,
+        "None": 0.09414354438745587,
+        "Sleep Apnea": 0.042663981881808956
+      },
+      "confidence": 0.863192473730735
+    },
+    {
+      "ts": "2026-05-18T03:58:29.686765",
+      "id": 141,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.05283859578150624,
+        "None": 0.8920160134219919,
+        "Sleep Apnea": 0.0551453907965018
+      },
+      "confidence": 0.8920160134219919
+    },
+    {
+      "ts": "2026-05-18T03:58:29.686814",
+      "id": 214,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.12522887201876468,
+        "None": 0.8205623026802819,
+        "Sleep Apnea": 0.05420882530095347
+      },
+      "confidence": 0.8205623026802819
+    },
+    {
+      "ts": "2026-05-18T03:58:29.686859",
+      "id": 6,
+      "model": "CatBoost",
+      "pred": "Sleep Apnea",
+      "probs": {
+        "Insomnia": 0.3422821806775071,
+        "None": 0.10195081308760755,
+        "Sleep Apnea": 0.5557670062348854
+      },
+      "confidence": 0.5557670062348854
+    },
+    {
+      "ts": "2026-05-18T03:58:29.686915",
+      "id": 285,
+      "model": "CatBoost",
+      "pred": "Sleep Apnea",
+      "probs": {
+        "Insomnia": 0.03965417501098531,
+        "None": 0.07001758270220201,
+        "Sleep Apnea": 0.8903282422868127
+      },
+      "confidence": 0.8903282422868127
+    },
+    {
+      "ts": "2026-05-18T03:58:29.686962",
+      "id": 205,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.099943416259763,
+        "None": 0.8573795900280474,
+        "Sleep Apnea": 0.042676993712189526
+      },
+      "confidence": 0.8573795900280474
+    },
+    {
+      "ts": "2026-05-18T03:58:29.687003",
+      "id": 75,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.05862476521111493,
+        "None": 0.918504391372467,
+        "Sleep Apnea": 0.02287084341641811
+      },
+      "confidence": 0.918504391372467
+    },
+    {
+      "ts": "2026-05-18T03:58:29.687045",
+      "id": 307,
+      "model": "CatBoost",
+      "pred": "Insomnia",
+      "probs": {
+        "Insomnia": 0.9168524562510385,
+        "None": 0.05236616471612676,
+        "Sleep Apnea": 0.03078137903283467
+      },
+      "confidence": 0.9168524562510385
+    },
+    {
+      "ts": "2026-05-18T03:58:29.687086",
+      "id": 36,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.03553376291902087,
+        "None": 0.9458600590871512,
+        "Sleep Apnea": 0.018606177993828063
+      },
+      "confidence": 0.9458600590871512
+    },
+    {
+      "ts": "2026-05-18T03:58:29.687143",
+      "id": 41,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.010474556697931299,
+        "None": 0.9581949522650213,
+        "Sleep Apnea": 0.03133049103704757
+      },
+      "confidence": 0.9581949522650213
+    },
+    {
+      "ts": "2026-05-18T03:58:29.687201",
+      "id": 121,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.02143627692822954,
+        "None": 0.9658220313351654,
+        "Sleep Apnea": 0.01274169173660494
+      },
+      "confidence": 0.9658220313351654
+    },
+    {
+      "ts": "2026-05-18T03:58:29.687248",
+      "id": 277,
+      "model": "CatBoost",
+      "pred": "Sleep Apnea",
+      "probs": {
+        "Insomnia": 0.23104981776226502,
+        "None": 0.23602071447854747,
+        "Sleep Apnea": 0.5329294677591876
+      },
+      "confidence": 0.5329294677591876
+    },
+    {
+      "ts": "2026-05-18T03:58:29.687315",
+      "id": 84,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.024158657108882427,
+        "None": 0.9306453223525607,
+        "Sleep Apnea": 0.045196020538556925
+      },
+      "confidence": 0.9306453223525607
+    },
+    {
+      "ts": "2026-05-18T03:58:29.687370",
+      "id": 370,
+      "model": "CatBoost",
+      "pred": "Sleep Apnea",
+      "probs": {
+        "Insomnia": 0.017067435263717037,
+        "None": 0.14416412000795872,
+        "Sleep Apnea": 0.8387684447283242
+      },
+      "confidence": 0.8387684447283242
+    },
+    {
+      "ts": "2026-05-18T03:58:29.687419",
+      "id": 150,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.036226902746663944,
+        "None": 0.9238570875529394,
+        "Sleep Apnea": 0.03991600970039686
+      },
+      "confidence": 0.9238570875529394
+    },
+    {
+      "ts": "2026-05-18T03:58:29.687462",
+      "id": 156,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.057420833355240924,
+        "None": 0.913554842719855,
+        "Sleep Apnea": 0.02902432392490419
+      },
+      "confidence": 0.913554842719855
+    },
+    {
+      "ts": "2026-05-18T03:58:29.687509",
+      "id": 50,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.025433927252742548,
+        "None": 0.9470420963080998,
+        "Sleep Apnea": 0.027523976439157744
+      },
+      "confidence": 0.9470420963080998
+    },
+    {
+      "ts": "2026-05-18T03:58:29.687549",
+      "id": 30,
+      "model": "CatBoost",
+      "pred": "Insomnia",
+      "probs": {
+        "Insomnia": 0.584323290754831,
+        "None": 0.1673702038326577,
+        "Sleep Apnea": 0.2483065054125114
+      },
+      "confidence": 0.584323290754831
+    },
+    {
+      "ts": "2026-05-18T03:58:29.687591",
+      "id": 332,
+      "model": "CatBoost",
+      "pred": "None",
+      "probs": {
+        "Insomnia": 0.027597604098822982,
+        "None": 0.9637275247518801,
+        "Sleep Apnea": 0.00867487114929701
+      },
+      "confidence": 0.9637275247518801
+    }
+  ],
+  "drift": [
+    {
+      "ts": "2026-05-18T03:58:29.688254",
+      "feature": "Age",
+      "score": 0.009012345678990945,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.694514",
+      "feature": "Sleep Duration",
+      "score": 0.005387546062006899,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.694664",
+      "feature": "Quality of Sleep",
+      "score": 0.003333333333287768,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.694772",
+      "feature": "Physical Activity Level",
+      "score": 0.03743894685658859,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.694876",
+      "feature": "Stress Level",
+      "score": 0.002714669977189426,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.694975",
+      "feature": "Heart Rate",
+      "score": 0.010854431387519915,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.695063",
+      "feature": "Daily Steps",
+      "score": 0.040437328661572486,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.695172",
+      "feature": "Systolic_BP",
+      "score": 6.625388070830895e-05,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.695257",
+      "feature": "Diastolic_BP",
+      "score": 0.0005378000763764444,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.695357",
+      "feature": "Pulse_Pressure",
+      "score": 0.0008431746031725597,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.695490",
+      "feature": "BP_Ratio",
+      "score": 0.00029199371824310805,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.695602",
+      "feature": "MAP",
+      "score": 0.00032176892059829443,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.695708",
+      "feature": "Gender_enc",
+      "score": 0.03653333332605106,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.695806",
+      "feature": "BMI_WHO_enc",
+      "score": 0.027642276419404407,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.695905",
+      "feature": "BP_Category_enc",
+      "score": 0.003333333333108803,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.696008",
+      "feature": "Occupation_enc",
+      "score": 0.004216120460472967,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.696151",
+      "feature": "Stress_Sleep_Index",
+      "score": 0.00781063505305435,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.696251",
+      "feature": "Activity_Efficiency",
+      "score": 0.014829298784418918,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.704152",
+      "feature": "Sleep_Debt",
+      "score": 0.035593220335061834,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.704282",
+      "feature": "Wellness_Score",
+      "score": 0.02107130317411411,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.704412",
+      "feature": "Cardio_Risk_Index",
+      "score": 0.014575004014979904,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.704532",
+      "feature": "Age_Stress_Interaction",
+      "score": 0.02160603179871579,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.704630",
+      "feature": "Sleep_Activity_Synergy",
+      "score": 0.0356055018228622,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.704718",
+      "feature": "HTN_Risk",
+      "score": 0.007949685533694247,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.704807",
+      "feature": "BMI_Stress_Risk",
+      "score": 0.005922077921847964,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.704910",
+      "feature": "Age_Cohort_enc",
+      "score": 0.027063492061886563,
+      "detected": false
+    },
+    {
+      "ts": "2026-05-18T03:58:29.704995",
+      "feature": "Sleep_Quality_Cat_enc",
+      "score": 0.07469958847185133,
+      "detected": false
+    }
+  ],
+  "audit": []
+}

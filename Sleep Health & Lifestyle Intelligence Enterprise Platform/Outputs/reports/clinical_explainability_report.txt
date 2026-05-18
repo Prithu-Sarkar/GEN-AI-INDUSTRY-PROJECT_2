@@ -1,0 +1,19 @@
+=================================================================
+CLINICAL EXPLAINABILITY REPORT
+Model: CatBoost  |  2026-05-18
+=================================================================
+
+TOP PREDICTIVE FACTORS:
+  1. Cardio_Risk_Index: CV risk compounds sleep disorder risk
+  2. MAP: Key contributor
+  3. Occupation_enc: High-stress occupations show 2-3× disorder rates
+  4. BMI_WHO_enc: Obesity is the primary Sleep Apnea risk factor
+  5. Diastolic_BP: Key contributor
+
+RECOMMENDATIONS:
+  • Stress ≥ 7         → CBT-I + sleep hygiene counseling
+  • BMI Obese + snoring → Polysomnography referral
+  • BP ≥ 140/90        → Evaluate for comorbid sleep apnea
+  • Wellness Score < 40 → Multidisciplinary lifestyle intervention
+
+DISCLAIMER: Research prototype. Not for clinical use.

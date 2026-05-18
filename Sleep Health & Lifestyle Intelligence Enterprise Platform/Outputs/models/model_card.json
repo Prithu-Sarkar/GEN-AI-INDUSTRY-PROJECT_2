@@ -1,0 +1,53 @@
+{
+  "model_name": "CatBoost",
+  "version": "2.0.0",
+  "task": "Multi-class Sleep Disorder Classification",
+  "classes": [
+    "Insomnia",
+    "None",
+    "Sleep Apnea"
+  ],
+  "n_features": 27,
+  "feature_names": [
+    "Age",
+    "Sleep Duration",
+    "Quality of Sleep",
+    "Physical Activity Level",
+    "Stress Level",
+    "Heart Rate",
+    "Daily Steps",
+    "Systolic_BP",
+    "Diastolic_BP",
+    "Pulse_Pressure",
+    "BP_Ratio",
+    "MAP",
+    "Gender_enc",
+    "BMI_WHO_enc",
+    "BP_Category_enc",
+    "Occupation_enc",
+    "Stress_Sleep_Index",
+    "Activity_Efficiency",
+    "Sleep_Debt",
+    "Wellness_Score",
+    "Cardio_Risk_Index",
+    "Age_Stress_Interaction",
+    "Sleep_Activity_Synergy",
+    "HTN_Risk",
+    "BMI_Stress_Risk",
+    "Age_Cohort_enc",
+    "Sleep_Quality_Cat_enc"
+  ],
+  "performance": {
+    "cv_acc": 0.8996,
+    "cv_acc_std": 0.0154,
+    "cv_f1": 0.8731,
+    "cv_f1_std": 0.0247,
+    "test_acc": 0.96,
+    "test_f1": 0.9352,
+    "test_auc": 0.9982,
+    "kappa": 0.9298
+  },
+  "training_date": "2026-05-18T03:57:08.426595",
+  "framework": "scikit-learn",
+  "experiment": "SleepHealthIntelligencePlatform_v2"
+}

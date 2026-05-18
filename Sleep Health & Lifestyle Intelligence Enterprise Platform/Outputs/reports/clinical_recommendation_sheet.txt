@@ -1,0 +1,16 @@
+
+SLEEP HEALTH INTELLIGENCE PLATFORM — CLINICAL RECOMMENDATION SHEET
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PREDICTED DISORDER : ___________  CONFIDENCE: _____%
+DATE: ___________  CLINICIAN: _____________
+
+RISK FACTORS:
+  □ Stress≥7  □ BMI Obese  □ Age>45  □ BP≥130/80
+  □ Sleep<6h  □ Steps<5000 □ Quality<5  □ Wellness<50
+
+ACTIONS:
+  □ CBT-I counseling          □ Polysomnography referral
+  □ Weight management         □ Hypertension workup
+  □ Stress management         □ 30-day follow-up
+
+⚠️  Research prototype. Clinical judgment takes precedence.

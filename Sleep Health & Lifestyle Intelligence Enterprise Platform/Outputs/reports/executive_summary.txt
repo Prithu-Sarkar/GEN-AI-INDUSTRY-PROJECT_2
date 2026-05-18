@@ -1,0 +1,53 @@
+╔════════════════════════════════════════════════════════════════════════╗
+║      SLEEP HEALTH INTELLIGENCE PLATFORM v2.0 — EXECUTIVE SUMMARY       ║
+╚════════════════════════════════════════════════════════════════════════╝
+  Generated: 2026-05-18 03:58
+  Status   : RESEARCH PROTOTYPE — Not for Clinical Use
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. DATASET OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Records: 374 | Original feats: 13 → Engineered: 27
+  Target : None (58.6%) | Insomnia (20.6%) | Sleep Apnea (20.9%)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. KEY RESEARCH FINDINGS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  • Stress Level: dominant predictor (η²>0.30, MI rank #1)
+  • Nurses/Sales Reps show 2-3× higher disorder rates vs Engineers
+  • Hypertension Stage 1+ co-occurs in 68% of disorder cases
+  • Wellness Score<50 identifies 85% of high-risk individuals
+  • Age 40-60: 3× Sleep Apnea prevalence | BMI Obese: 4× risk
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. MODEL PERFORMANCE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Best Model  : CatBoost
+  CV Accuracy : 0.8996 ± 0.0154
+  Test F1     : 0.9352
+  ROC-AUC     : 0.9982
+  Cohen Kappa : 0.9298
+  Models Run  : 10
+
+  Top 3:
+    1. CatBoost                           : F1=0.9352 AUC=0.9982
+    2. XGBoost (Tuned)                    : F1=0.9352 AUC=0.9982
+    3. SVM (RBF)                          : F1=0.9352 AUC=0.9973
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. CLINICAL RISK STRATIFICATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  HIGH   : Stress≥8 + Obese + Age≥45 + BP Stage 2 → Immediate referral
+  MEDIUM : Stress≥6 + Overweight + Sleep<6h → 3-month follow-up
+  LOW    : Normal BMI + Stress<5 + Sleep 7-9h → Annual screening
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. ARTIFACTS GENERATED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  models/best_model.pkl         | Serialized pipeline
+  models/label_encoders.pkl     | Feature encoders
+  models/model_card.json        | Model metadata
+  reports/*.png (9 dashboards)  | Research visualizations
+  outputs/model_leaderboard.csv | Full model comparison
+
+DISCLAIMER: Research prototype only. Not validated for clinical use.

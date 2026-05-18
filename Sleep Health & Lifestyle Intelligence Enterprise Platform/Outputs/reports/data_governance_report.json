@@ -1,0 +1,88 @@
+{
+  "shape": [
+    374,
+    13
+  ],
+  "memory_mb": 0.123,
+  "numeric_cols": [
+    "Person ID",
+    "Age",
+    "Sleep Duration",
+    "Quality of Sleep",
+    "Physical Activity Level",
+    "Stress Level",
+    "Heart Rate",
+    "Daily Steps"
+  ],
+  "categorical_cols": [
+    "Gender",
+    "Occupation",
+    "BMI Category",
+    "Blood Pressure",
+    "Sleep Disorder"
+  ],
+  "total_nulls": 219,
+  "total_duplicates": 0,
+  "schema": {
+    "Person ID": {
+      "present": true,
+      "null_count": 0,
+      "issues": []
+    },
+    "Gender": {
+      "present": true,
+      "null_count": 0,
+      "issues": []
+    },
+    "Age": {
+      "present": true,
+      "null_count": 0,
+      "issues": []
+    },
+    "Sleep Duration": {
+      "present": true,
+      "null_count": 0,
+      "issues": []
+    },
+    "Quality of Sleep": {
+      "present": true,
+      "null_count": 0,
+      "issues": []
+    },
+    "Physical Activity Level": {
+      "present": true,
+      "null_count": 0,
+      "issues": []
+    },
+    "Stress Level": {
+      "present": true,
+      "null_count": 0,
+      "issues": []
+    },
+    "BMI Category": {
+      "present": true,
+      "null_count": 0,
+      "issues": []
+    },
+    "Blood Pressure": {
+      "present": true,
+      "null_count": 0,
+      "issues": []
+    },
+    "Heart Rate": {
+      "present": true,
+      "null_count": 0,
+      "issues": []
+    },
+    "Daily Steps": {
+      "present": true,
+      "null_count": 0,
+      "issues": []
+    },
+    "Sleep Disorder": {
+      "present": true,
+      "null_count": 219,
+      "issues": []
+    }
+  }
+}

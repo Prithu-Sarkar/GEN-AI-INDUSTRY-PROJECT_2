@@ -1,0 +1,38 @@
+{
+  "feature_names": [
+    "Age",
+    "Sleep Duration",
+    "Quality of Sleep",
+    "Physical Activity Level",
+    "Stress Level",
+    "Heart Rate",
+    "Daily Steps",
+    "Systolic_BP",
+    "Diastolic_BP",
+    "Pulse_Pressure",
+    "BP_Ratio",
+    "MAP",
+    "Gender_enc",
+    "BMI_WHO_enc",
+    "BP_Category_enc",
+    "Occupation_enc",
+    "Stress_Sleep_Index",
+    "Activity_Efficiency",
+    "Sleep_Debt",
+    "Wellness_Score",
+    "Cardio_Risk_Index",
+    "Age_Stress_Interaction",
+    "Sleep_Activity_Synergy",
+    "HTN_Risk",
+    "BMI_Stress_Risk",
+    "Age_Cohort_enc",
+    "Sleep_Quality_Cat_enc"
+  ],
+  "target_classes": [
+    "Insomnia",
+    "None",
+    "Sleep Apnea"
+  ],
+  "n_features": 27,
+  "n_samples": 374
+}

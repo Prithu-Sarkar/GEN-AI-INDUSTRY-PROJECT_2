@@ -1,0 +1,51 @@
+# Sleep Health Intelligence Platform — Configuration
+# ─────────────────────────────────────────────────────────────────
+
+project:
+  name: "Sleep Health Intelligence Platform"
+  version: "2.0.0"
+  environment: "development"  # development | staging | production
+
+data:
+  path: "Sleep_health_and_lifestyle_dataset.csv"
+  target_column: "Sleep Disorder"
+  test_size: 0.20
+  random_seed: 42
+
+model:
+  best_model_path:     "models/best_model.pkl"
+  label_encoders_path: "models/label_encoders.pkl"
+  target_encoder_path: "models/target_encoder.pkl"
+  feature_pipeline:    "models/feature_pipeline.pkl"
+  model_card:          "models/model_card.json"
+  feature_metadata:    "configs/feature_metadata.json"
+
+mlflow:
+  tracking_uri:    ""        # Set via env: MLFLOW_TRACKING_URI
+  experiment_name: "SleepHealthIntelligencePlatform_v2"
+  model_stage:     "Staging"
+
+dagshub:
+  repo_owner: "your-username"
+  repo_name:  "sleep-health-intelligence"
+  token:      ""             # Set via env: DAGSHUB_TOKEN
+
+mongodb:
+  uri:     ""                # Set via env: MONGO_URI
+  db_name: "sleep_health_db"
+  collections:
+    predictions:  "sleep_predictions"
+    user_history: "user_inference_history"
+    drift:        "model_drift_records"
+    audit:        "platform_audit_logs"
+
+logging:
+  level: "INFO"
+  log_dir: "logs/"
+  format: "%(asctime)s | %(levelname)s | %(name)s | %(message)s"
+
+artifacts:
+  reports_dir:   "reports/"
+  outputs_dir:   "outputs/"
+  models_dir:    "models/"
+  artifacts_dir: "artifacts/"

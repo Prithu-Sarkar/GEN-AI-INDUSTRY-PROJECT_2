@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SleepHealthRecord",
+  "description": "Input schema for Sleep Health Intelligence Platform v2.0",
+  "type": "object",
+  "required": ["Age","Gender","Sleep Duration","Quality of Sleep",
+               "Physical Activity Level","Stress Level","BMI Category",
+               "Blood Pressure","Heart Rate","Daily Steps"],
+  "properties": {
+    "Person ID":               {"type":"integer","minimum":1,"description":"Unique patient identifier"},
+    "Gender":                  {"type":"string","enum":["Male","Female"]},
+    "Age":                     {"type":"number","minimum":18,"maximum":100,"description":"Age in years"},
+    "Occupation":              {"type":"string","description":"Primary occupation category"},
+    "Sleep Duration":          {"type":"number","minimum":3.0,"maximum":12.0,"description":"Avg nightly sleep (hours)"},
+    "Quality of Sleep":        {"type":"integer","minimum":1,"maximum":10,"description":"Self-reported quality (1=worst, 10=best)"},
+    "Physical Activity Level": {"type":"integer","minimum":0,"maximum":180,"description":"Daily activity (min/day)"},
+    "Stress Level":            {"type":"integer","minimum":1,"maximum":10,"description":"Self-reported stress (1=low, 10=high)"},
+    "BMI Category":            {"type":"string","enum":["Normal","Normal Weight","Overweight","Obese","Underweight"]},
+    "Blood Pressure":          {"type":"string","pattern":"^\\d+/\\d+$","description":"Format: systolic/diastolic (e.g. 120/80)"},
+    "Heart Rate":              {"type":"integer","minimum":40,"maximum":220,"description":"Resting heart rate (bpm)"},
+    "Daily Steps":             {"type":"integer","minimum":0,"maximum":50000,"description":"Average daily step count"},
+    "Sleep Disorder":          {"type":["string","null"],"enum":["None","Insomnia","Sleep Apnea",null],"description":"Target label (null for inference)"}
+  },
+  "additionalProperties": false
+}
