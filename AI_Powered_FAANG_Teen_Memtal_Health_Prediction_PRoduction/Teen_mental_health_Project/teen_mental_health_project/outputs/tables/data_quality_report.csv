@@ -1,0 +1,14 @@
+column,dtype,n_missing,pct_missing,n_unique,pct_unique,is_constant,min,max,mean,has_negative
+age,int64,0,0.0,7,0.58,False,13.0,19.0,15.9283,False
+gender,object,0,0.0,2,0.17,False,,,,
+daily_social_media_hours,float64,0,0.0,71,5.92,False,1.0,8.0,4.5367,False
+platform_usage,object,0,0.0,3,0.25,False,,,,
+sleep_hours,float64,0,0.0,51,4.25,False,4.0,9.0,6.4494,False
+screen_time_before_sleep,float64,0,0.0,26,2.17,False,0.5,3.0,1.7403,False
+academic_performance,float64,0,0.0,201,16.75,False,2.0,4.0,2.9904,False
+physical_activity,float64,0,0.0,21,1.75,False,0.0,2.0,1.0145,False
+social_interaction_level,object,0,0.0,3,0.25,False,,,,
+stress_level,int64,0,0.0,10,0.83,False,1.0,10.0,5.4458,False
+anxiety_level,int64,0,0.0,10,0.83,False,1.0,10.0,5.6367,False
+addiction_level,int64,0,0.0,10,0.83,False,1.0,10.0,5.565,False
+depression_label,int64,0,0.0,2,0.17,False,0.0,1.0,0.0258,False

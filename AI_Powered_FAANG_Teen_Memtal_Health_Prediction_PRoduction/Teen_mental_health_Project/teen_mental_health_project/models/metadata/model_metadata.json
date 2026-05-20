@@ -1,0 +1,42 @@
+{
+  "model_name": "Extra Trees",
+  "run_id": "20260520_050529",
+  "mlflow_run_id": "22be9d0ad5244991b12e9e8b03b4e62e",
+  "cv_f1_macro": 0.2735,
+  "cv_accuracy": 0.2739,
+  "cv_roc_auc": 0.6622,
+  "best_params": {
+    "C": 21.42302175774105
+  },
+  "features": [
+    "daily_social_media_hours",
+    "academic_performance",
+    "physical_activity",
+    "sleep_hours",
+    "platform_usage",
+    "screen_time_before_sleep",
+    "addiction_level",
+    "anxiety_level",
+    "social_interaction_level",
+    "age",
+    "depression_label",
+    "gender"
+  ],
+  "target_classes": [
+    "1",
+    "10",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "smote_applied": true,
+  "n_train": 1110,
+  "n_test": 240,
+  "sklearn_version": "1.6.1",
+  "created_at": "2026-05-20T05:28:30.608155"
+}
