@@ -1,0 +1,10 @@
+
+Jane Smith — Senior ML Engineer
+
+EXPERIENCE
+2020-present  TechCorp  Lead ML Engineer
+- Built real-time fraud detection pipeline
+- Reduced inference latency from 120ms to 18ms
+
+SKILLS
+Python · PyTorch · LangChain · Kubernetes · MongoDB

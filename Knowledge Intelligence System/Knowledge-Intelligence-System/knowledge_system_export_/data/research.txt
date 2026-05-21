@@ -1,0 +1,13 @@
+
+Title: Retrieval-Augmented Generation at Scale
+
+ABSTRACT
+Combining dense retrieval with LLMs improves factual accuracy.
+
+KEY FINDINGS
+1. Hybrid retrieval improves accuracy.
+2. Chunk overlap of 10-20% reduces artefacts.
+3. Cross-encoder reranking improves F1.
+
+RESULTS
+35 percentage-point gain over pure generative baselines.
