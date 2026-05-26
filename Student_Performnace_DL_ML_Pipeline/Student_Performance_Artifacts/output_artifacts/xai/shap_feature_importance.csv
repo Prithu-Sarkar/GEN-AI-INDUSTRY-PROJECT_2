@@ -1,0 +1,23 @@
+feature,mean_abs_shap
+study_effectiveness,3.0704017
+distraction_ratio,2.7503772
+study_hours_per_day,2.6640825
+academic_load,2.0745394
+study_x_mental,2.0038576
+lifestyle_score,1.9435767
+wellbeing_index,1.8383043
+study_hours_per_day_sq,1.1851907
+screen_to_sleep,0.7485477
+exercise_frequency,0.51398635
+social_media_hours,0.46812895
+sleep_hours,0.42943662
+total_screen_time,0.32861215
+sleep_x_attendance,0.32644132
+attendance_percentage,0.2189946
+mental_health_rating_sq,0.21351223
+sleep_study_ratio,0.13142262
+attendance_percentage_sq,0.12045198
+internet_quality_Poor,0.060193006
+parental_education_level_High School,0.048621926
+mental_health_rating,0.04071276
+parental_education_level_Master,0.0086749885
