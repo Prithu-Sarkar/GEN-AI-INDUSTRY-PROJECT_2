@@ -1,0 +1,9 @@
+Phase,Key Finding
+EDA,VO2max & protein/kg are top performance drivers; IL-6 negatively correlated.
+Feature Engineering,immune_composite and aerobic_capacity improve model AUC ~3%.
+Statistical Analysis,Mann-Whitney confirms significant group differences (p<0.01) for all key features.
+15+ Model Framework,Best classifier: XGB/LGB Tuned (AUC>0.85); 15 models evaluated.
+Hyperparameter Tuning,Optuna+SMOTE improves minority recall ~12% vs baseline.
+XAI/SHAP,"VO2max, aerobic_capacity, protein_per_kg are top 3 SHAP features."
+Immune Risk Model,Immune model AUC>0.80; weekly_hours + low protein are key modifiable risk factors.
+Recipe Insights,Recipes provide 38-45g protein/meal — ideal for 5-meal/day endurance athletes.
