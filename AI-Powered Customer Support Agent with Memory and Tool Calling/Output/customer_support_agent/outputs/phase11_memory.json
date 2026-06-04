@@ -1,0 +1,14 @@
+{
+  "memories_found": 1,
+  "signals": {
+    "memory_hit_count": 0,
+    "knowledge_hit_count": 4,
+    "tool_call_count": 1,
+    "knowledge_sources": [
+      "banking-atm-cash-withdrawal-faq.md",
+      "saving-account-rule.md",
+      "banking-charges-and-minimum-balance.md",
+      "banking-kyc-and-account-update-rules.md"
+    ]
+  }
+}

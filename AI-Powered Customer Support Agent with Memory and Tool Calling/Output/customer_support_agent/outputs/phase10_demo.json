@@ -1,0 +1,16 @@
+{
+  "ticket_id": 3,
+  "draft_status": "pending",
+  "signals": {
+    "memory_hit_count": 0,
+    "knowledge_hit_count": 4,
+    "tool_call_count": 1,
+    "knowledge_sources": [
+      "banking-atm-cash-withdrawal-faq.md",
+      "saving-account-rule.md",
+      "banking-charges-and-minimum-balance.md",
+      "banking-kyc-and-account-update-rules.md"
+    ]
+  },
+  "draft_preview": "Dear Priya,\n\nThank you for reaching out to us about the issue with your ATM cash withdrawal. I'm here to help you with this urgent matter.\n\nAccording to our records, you withdrew INR 10,000 from the A"
+}
